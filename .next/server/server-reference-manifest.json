@@ -1,0 +1,14 @@
+{
+  "node": {
+    "806e42beb67ecb27b2951d0919494f139b0168c4": {
+      "workers": {
+        "app/new-post/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fblurlingite%2FDownloads%2FNextPosts%2Fapp%2Fnew-post%2Fpage.js%22%2C%5B%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/new-post/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "bqWSOoLmb3g8v/zP42MAWbaCH0v8Lufn6s9uIvYkfvk="
+}
