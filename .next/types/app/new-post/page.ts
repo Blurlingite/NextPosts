@@ -1,4 +1,4 @@
-// File: /Users/blurlingite/Downloads/NextPosts/app/new-post/page.js
+// File: /Users/blurlingite/Documents/NextPosts/app/new-post/page.js
 import * as entry from '../../../../app/new-post/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
