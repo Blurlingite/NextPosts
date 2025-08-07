@@ -23,6 +23,215 @@ module.exports = require("better-sqlite3");
 
 /***/ }),
 
+/***/ "lodash":
+/*!*************************!*\
+  !*** external "lodash" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash");
+
+/***/ }),
+
+/***/ "lodash/at":
+/*!****************************!*\
+  !*** external "lodash/at" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/at");
+
+/***/ }),
+
+/***/ "lodash/clone":
+/*!*******************************!*\
+  !*** external "lodash/clone" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/clone");
+
+/***/ }),
+
+/***/ "lodash/compact":
+/*!*********************************!*\
+  !*** external "lodash/compact" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/compact");
+
+/***/ }),
+
+/***/ "lodash/extend":
+/*!********************************!*\
+  !*** external "lodash/extend" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/extend");
+
+/***/ }),
+
+/***/ "lodash/filter":
+/*!********************************!*\
+  !*** external "lodash/filter" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/filter");
+
+/***/ }),
+
+/***/ "lodash/first":
+/*!*******************************!*\
+  !*** external "lodash/first" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/first");
+
+/***/ }),
+
+/***/ "lodash/includes":
+/*!**********************************!*\
+  !*** external "lodash/includes" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/includes");
+
+/***/ }),
+
+/***/ "lodash/isArray":
+/*!*********************************!*\
+  !*** external "lodash/isArray" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isArray");
+
+/***/ }),
+
+/***/ "lodash/isEmpty":
+/*!*********************************!*\
+  !*** external "lodash/isEmpty" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isEmpty");
+
+/***/ }),
+
+/***/ "lodash/isFunction":
+/*!************************************!*\
+  !*** external "lodash/isFunction" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isFunction");
+
+/***/ }),
+
+/***/ "lodash/isNumber":
+/*!**********************************!*\
+  !*** external "lodash/isNumber" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isNumber");
+
+/***/ }),
+
+/***/ "lodash/isObject":
+/*!**********************************!*\
+  !*** external "lodash/isObject" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isObject");
+
+/***/ }),
+
+/***/ "lodash/isPlainObject":
+/*!***************************************!*\
+  !*** external "lodash/isPlainObject" ***!
+  \***************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isPlainObject");
+
+/***/ }),
+
+/***/ "lodash/isString":
+/*!**********************************!*\
+  !*** external "lodash/isString" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isString");
+
+/***/ }),
+
+/***/ "lodash/isUndefined":
+/*!*************************************!*\
+  !*** external "lodash/isUndefined" ***!
+  \*************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isUndefined");
+
+/***/ }),
+
+/***/ "lodash/last":
+/*!******************************!*\
+  !*** external "lodash/last" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/last");
+
+/***/ }),
+
+/***/ "lodash/map":
+/*!*****************************!*\
+  !*** external "lodash/map" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/map");
+
+/***/ }),
+
+/***/ "lodash/take":
+/*!******************************!*\
+  !*** external "lodash/take" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/take");
+
+/***/ }),
+
 /***/ "./action-async-storage.external":
 /*!****************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external" ***!
@@ -100,6 +309,50 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -108,6 +361,28 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 "use strict";
 module.exports = require("path");
+
+/***/ }),
+
+/***/ "querystring":
+/*!******************************!*\
+  !*** external "querystring" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("querystring");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
 
 /***/ }),
 
@@ -212,7 +487,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ PostForm)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-dom.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_form_submit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/components/form-submit */ \"(ssr)/./components/form-submit.js\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n// import { useActionState } from \"react\";\n\n\nfunction PostForm({ action }) {\n    const [state, formAction] = (0,react_dom__WEBPACK_IMPORTED_MODULE_1__.useFormState)(action, {});\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Create a new post\"\n            }, void 0, false, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                action: formAction,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"form-control\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                htmlFor: \"title\",\n                                children: \"Title\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 15,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                type: \"text\",\n                                id: \"title\",\n                                name: \"title\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 16,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 14,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"form-control\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                htmlFor: \"image\",\n                                children: \"Image URL\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 19,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                type: \"file\",\n                                accept: \"image/png, image/jpeg\",\n                                id: \"image\",\n                                name: \"image\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 20,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"form-control\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                htmlFor: \"content\",\n                                children: \"Content\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 28,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"textarea\", {\n                                id: \"content\",\n                                name: \"content\",\n                                rows: \"5\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 29,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 27,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"form-actions\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_form_submit__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                            fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                            lineNumber: 32,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 31,\n                        columnNumber: 9\n                    }, this),\n                    state.errors && state.errors.length > 0 && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                        role: \"alert\",\n                        children: state.errors.map((error, idx)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: error\n                            }, idx, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 41,\n                                columnNumber: 15\n                            }, this))\n                    }, void 0, false, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 39,\n                        columnNumber: 11\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                lineNumber: 13,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL3Bvc3QtZm9ybS5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQ0EsMENBQTBDO0FBQ0Q7QUFFUztBQUVuQyxTQUFTRSxTQUFTLEVBQUVDLE1BQU0sRUFBRTtJQUN6QyxNQUFNLENBQUNDLE9BQU9DLFdBQVcsR0FBR0wsdURBQVlBLENBQUNHLFFBQVEsQ0FBQztJQUVsRCxxQkFDRTs7MEJBQ0UsOERBQUNHOzBCQUFHOzs7Ozs7MEJBQ0osOERBQUNDO2dCQUFLSixRQUFRRTs7a0NBQ1osOERBQUNHO3dCQUFFQyxXQUFVOzswQ0FDWCw4REFBQ0M7Z0NBQU1DLFNBQVE7MENBQVE7Ozs7OzswQ0FDdkIsOERBQUNDO2dDQUFNQyxNQUFLO2dDQUFPQyxJQUFHO2dDQUFRQyxNQUFLOzs7Ozs7Ozs7Ozs7a0NBRXJDLDhEQUFDUDt3QkFBRUMsV0FBVTs7MENBQ1gsOERBQUNDO2dDQUFNQyxTQUFROzBDQUFROzs7Ozs7MENBQ3ZCLDhEQUFDQztnQ0FDQ0MsTUFBSztnQ0FDTEcsUUFBTztnQ0FDUEYsSUFBRztnQ0FDSEMsTUFBSzs7Ozs7Ozs7Ozs7O2tDQUdULDhEQUFDUDt3QkFBRUMsV0FBVTs7MENBQ1gsOERBQUNDO2dDQUFNQyxTQUFROzBDQUFVOzs7Ozs7MENBQ3pCLDhEQUFDTTtnQ0FBU0gsSUFBRztnQ0FBVUMsTUFBSztnQ0FBVUcsTUFBSzs7Ozs7Ozs7Ozs7O2tDQUU3Qyw4REFBQ1Y7d0JBQUVDLFdBQVU7a0NBQ1gsNEVBQUNSLCtEQUFVQTs7Ozs7Ozs7OztvQkFNWkcsTUFBTWUsTUFBTSxJQUFJZixNQUFNZSxNQUFNLENBQUNDLE1BQU0sR0FBRyxtQkFDckMsOERBQUNDO3dCQUFHQyxNQUFLO2tDQUNObEIsTUFBTWUsTUFBTSxDQUFDSSxHQUFHLENBQUMsQ0FBQ0MsT0FBT0Msb0JBQ3hCLDhEQUFDQzswQ0FBY0Y7K0JBQU5DOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPdkIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tdXRhdGlvbi8uL2NvbXBvbmVudHMvcG9zdC1mb3JtLmpzPzdlMGUiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2UgY2xpZW50XCI7XG4vLyBpbXBvcnQgeyB1c2VBY3Rpb25TdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgdXNlRm9ybVN0YXRlIH0gZnJvbSBcInJlYWN0LWRvbVwiO1xuXG5pbXBvcnQgRm9ybVN1Ym1pdCBmcm9tIFwiQC9jb21wb25lbnRzL2Zvcm0tc3VibWl0XCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFBvc3RGb3JtKHsgYWN0aW9uIH0pIHtcbiAgY29uc3QgW3N0YXRlLCBmb3JtQWN0aW9uXSA9IHVzZUZvcm1TdGF0ZShhY3Rpb24sIHt9KTtcblxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8aDE+Q3JlYXRlIGEgbmV3IHBvc3Q8L2gxPlxuICAgICAgPGZvcm0gYWN0aW9uPXtmb3JtQWN0aW9ufT5cbiAgICAgICAgPHAgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCI+XG4gICAgICAgICAgPGxhYmVsIGh0bWxGb3I9XCJ0aXRsZVwiPlRpdGxlPC9sYWJlbD5cbiAgICAgICAgICA8aW5wdXQgdHlwZT1cInRleHRcIiBpZD1cInRpdGxlXCIgbmFtZT1cInRpdGxlXCIgLz5cbiAgICAgICAgPC9wPlxuICAgICAgICA8cCBjbGFzc05hbWU9XCJmb3JtLWNvbnRyb2xcIj5cbiAgICAgICAgICA8bGFiZWwgaHRtbEZvcj1cImltYWdlXCI+SW1hZ2UgVVJMPC9sYWJlbD5cbiAgICAgICAgICA8aW5wdXRcbiAgICAgICAgICAgIHR5cGU9XCJmaWxlXCJcbiAgICAgICAgICAgIGFjY2VwdD1cImltYWdlL3BuZywgaW1hZ2UvanBlZ1wiXG4gICAgICAgICAgICBpZD1cImltYWdlXCJcbiAgICAgICAgICAgIG5hbWU9XCJpbWFnZVwiXG4gICAgICAgICAgLz5cbiAgICAgICAgPC9wPlxuICAgICAgICA8cCBjbGFzc05hbWU9XCJmb3JtLWNvbnRyb2xcIj5cbiAgICAgICAgICA8bGFiZWwgaHRtbEZvcj1cImNvbnRlbnRcIj5Db250ZW50PC9sYWJlbD5cbiAgICAgICAgICA8dGV4dGFyZWEgaWQ9XCJjb250ZW50XCIgbmFtZT1cImNvbnRlbnRcIiByb3dzPVwiNVwiIC8+XG4gICAgICAgIDwvcD5cbiAgICAgICAgPHAgY2xhc3NOYW1lPVwiZm9ybS1hY3Rpb25zXCI+XG4gICAgICAgICAgPEZvcm1TdWJtaXQgLz5cbiAgICAgICAgPC9wPlxuICAgICAgICB7Lyoge3N0YXRlLmVycm9ycy5tYXAoKGVycm9yKSA9PiAoXG4gICAgICAgICAgPGxpIGtleT17ZXJyb3J9PntlcnJvcn08L2xpPlxuICAgICAgICApKX0gKi99XG5cbiAgICAgICAge3N0YXRlLmVycm9ycyAmJiBzdGF0ZS5lcnJvcnMubGVuZ3RoID4gMCAmJiAoXG4gICAgICAgICAgPHVsIHJvbGU9XCJhbGVydFwiPlxuICAgICAgICAgICAge3N0YXRlLmVycm9ycy5tYXAoKGVycm9yLCBpZHgpID0+IChcbiAgICAgICAgICAgICAgPGxpIGtleT17aWR4fT57ZXJyb3J9PC9saT5cbiAgICAgICAgICAgICkpfVxuICAgICAgICAgIDwvdWw+XG4gICAgICAgICl9XG4gICAgICA8L2Zvcm0+XG4gICAgPC8+XG4gICk7XG59XG4iXSwibmFtZXMiOlsidXNlRm9ybVN0YXRlIiwiRm9ybVN1Ym1pdCIsIlBvc3RGb3JtIiwiYWN0aW9uIiwic3RhdGUiLCJmb3JtQWN0aW9uIiwiaDEiLCJmb3JtIiwicCIsImNsYXNzTmFtZSIsImxhYmVsIiwiaHRtbEZvciIsImlucHV0IiwidHlwZSIsImlkIiwibmFtZSIsImFjY2VwdCIsInRleHRhcmVhIiwicm93cyIsImVycm9ycyIsImxlbmd0aCIsInVsIiwicm9sZSIsIm1hcCIsImVycm9yIiwiaWR4IiwibGkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./components/post-form.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ PostForm)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-dom.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_form_submit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/components/form-submit */ \"(ssr)/./components/form-submit.js\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n// import { useActionState } from \"react\";\n\n\nfunction PostForm({ action }) {\n    const [state, formAction] = (0,react_dom__WEBPACK_IMPORTED_MODULE_1__.useFormState)(action, {});\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Create a new post\"\n            }, void 0, false, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                action: formAction,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"form-control\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                htmlFor: \"title\",\n                                children: \"Title\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 15,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                type: \"text\",\n                                id: \"title\",\n                                name: \"title\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 16,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 14,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"form-control\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                htmlFor: \"image\",\n                                children: \"Image\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 19,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                type: \"file\",\n                                accept: \"image/png, image/jpeg\",\n                                id: \"image\",\n                                name: \"image\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 20,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"form-control\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                htmlFor: \"content\",\n                                children: \"Content\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 28,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"textarea\", {\n                                id: \"content\",\n                                name: \"content\",\n                                rows: \"5\"\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 29,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 27,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"form-actions\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_form_submit__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                            fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                            lineNumber: 32,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 31,\n                        columnNumber: 9\n                    }, this),\n                    state.errors && state.errors.length > 0 && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                        role: \"alert\",\n                        children: state.errors.map((error, idx)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: error\n                            }, idx, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                                lineNumber: 41,\n                                columnNumber: 15\n                            }, this))\n                    }, void 0, false, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                        lineNumber: 39,\n                        columnNumber: 11\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/post-form.js\",\n                lineNumber: 13,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL3Bvc3QtZm9ybS5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQ0EsMENBQTBDO0FBQ0Q7QUFFUztBQUVuQyxTQUFTRSxTQUFTLEVBQUVDLE1BQU0sRUFBRTtJQUN6QyxNQUFNLENBQUNDLE9BQU9DLFdBQVcsR0FBR0wsdURBQVlBLENBQUNHLFFBQVEsQ0FBQztJQUVsRCxxQkFDRTs7MEJBQ0UsOERBQUNHOzBCQUFHOzs7Ozs7MEJBQ0osOERBQUNDO2dCQUFLSixRQUFRRTs7a0NBQ1osOERBQUNHO3dCQUFFQyxXQUFVOzswQ0FDWCw4REFBQ0M7Z0NBQU1DLFNBQVE7MENBQVE7Ozs7OzswQ0FDdkIsOERBQUNDO2dDQUFNQyxNQUFLO2dDQUFPQyxJQUFHO2dDQUFRQyxNQUFLOzs7Ozs7Ozs7Ozs7a0NBRXJDLDhEQUFDUDt3QkFBRUMsV0FBVTs7MENBQ1gsOERBQUNDO2dDQUFNQyxTQUFROzBDQUFROzs7Ozs7MENBQ3ZCLDhEQUFDQztnQ0FDQ0MsTUFBSztnQ0FDTEcsUUFBTztnQ0FDUEYsSUFBRztnQ0FDSEMsTUFBSzs7Ozs7Ozs7Ozs7O2tDQUdULDhEQUFDUDt3QkFBRUMsV0FBVTs7MENBQ1gsOERBQUNDO2dDQUFNQyxTQUFROzBDQUFVOzs7Ozs7MENBQ3pCLDhEQUFDTTtnQ0FBU0gsSUFBRztnQ0FBVUMsTUFBSztnQ0FBVUcsTUFBSzs7Ozs7Ozs7Ozs7O2tDQUU3Qyw4REFBQ1Y7d0JBQUVDLFdBQVU7a0NBQ1gsNEVBQUNSLCtEQUFVQTs7Ozs7Ozs7OztvQkFNWkcsTUFBTWUsTUFBTSxJQUFJZixNQUFNZSxNQUFNLENBQUNDLE1BQU0sR0FBRyxtQkFDckMsOERBQUNDO3dCQUFHQyxNQUFLO2tDQUNObEIsTUFBTWUsTUFBTSxDQUFDSSxHQUFHLENBQUMsQ0FBQ0MsT0FBT0Msb0JBQ3hCLDhEQUFDQzswQ0FBY0Y7K0JBQU5DOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPdkIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tdXRhdGlvbi8uL2NvbXBvbmVudHMvcG9zdC1mb3JtLmpzPzdlMGUiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2UgY2xpZW50XCI7XG4vLyBpbXBvcnQgeyB1c2VBY3Rpb25TdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgdXNlRm9ybVN0YXRlIH0gZnJvbSBcInJlYWN0LWRvbVwiO1xuXG5pbXBvcnQgRm9ybVN1Ym1pdCBmcm9tIFwiQC9jb21wb25lbnRzL2Zvcm0tc3VibWl0XCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFBvc3RGb3JtKHsgYWN0aW9uIH0pIHtcbiAgY29uc3QgW3N0YXRlLCBmb3JtQWN0aW9uXSA9IHVzZUZvcm1TdGF0ZShhY3Rpb24sIHt9KTtcblxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8aDE+Q3JlYXRlIGEgbmV3IHBvc3Q8L2gxPlxuICAgICAgPGZvcm0gYWN0aW9uPXtmb3JtQWN0aW9ufT5cbiAgICAgICAgPHAgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCI+XG4gICAgICAgICAgPGxhYmVsIGh0bWxGb3I9XCJ0aXRsZVwiPlRpdGxlPC9sYWJlbD5cbiAgICAgICAgICA8aW5wdXQgdHlwZT1cInRleHRcIiBpZD1cInRpdGxlXCIgbmFtZT1cInRpdGxlXCIgLz5cbiAgICAgICAgPC9wPlxuICAgICAgICA8cCBjbGFzc05hbWU9XCJmb3JtLWNvbnRyb2xcIj5cbiAgICAgICAgICA8bGFiZWwgaHRtbEZvcj1cImltYWdlXCI+SW1hZ2U8L2xhYmVsPlxuICAgICAgICAgIDxpbnB1dFxuICAgICAgICAgICAgdHlwZT1cImZpbGVcIlxuICAgICAgICAgICAgYWNjZXB0PVwiaW1hZ2UvcG5nLCBpbWFnZS9qcGVnXCJcbiAgICAgICAgICAgIGlkPVwiaW1hZ2VcIlxuICAgICAgICAgICAgbmFtZT1cImltYWdlXCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3A+XG4gICAgICAgIDxwIGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiPlxuICAgICAgICAgIDxsYWJlbCBodG1sRm9yPVwiY29udGVudFwiPkNvbnRlbnQ8L2xhYmVsPlxuICAgICAgICAgIDx0ZXh0YXJlYSBpZD1cImNvbnRlbnRcIiBuYW1lPVwiY29udGVudFwiIHJvd3M9XCI1XCIgLz5cbiAgICAgICAgPC9wPlxuICAgICAgICA8cCBjbGFzc05hbWU9XCJmb3JtLWFjdGlvbnNcIj5cbiAgICAgICAgICA8Rm9ybVN1Ym1pdCAvPlxuICAgICAgICA8L3A+XG4gICAgICAgIHsvKiB7c3RhdGUuZXJyb3JzLm1hcCgoZXJyb3IpID0+IChcbiAgICAgICAgICA8bGkga2V5PXtlcnJvcn0+e2Vycm9yfTwvbGk+XG4gICAgICAgICkpfSAqL31cblxuICAgICAgICB7c3RhdGUuZXJyb3JzICYmIHN0YXRlLmVycm9ycy5sZW5ndGggPiAwICYmIChcbiAgICAgICAgICA8dWwgcm9sZT1cImFsZXJ0XCI+XG4gICAgICAgICAgICB7c3RhdGUuZXJyb3JzLm1hcCgoZXJyb3IsIGlkeCkgPT4gKFxuICAgICAgICAgICAgICA8bGkga2V5PXtpZHh9PntlcnJvcn08L2xpPlxuICAgICAgICAgICAgKSl9XG4gICAgICAgICAgPC91bD5cbiAgICAgICAgKX1cbiAgICAgIDwvZm9ybT5cbiAgICA8Lz5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJ1c2VGb3JtU3RhdGUiLCJGb3JtU3VibWl0IiwiUG9zdEZvcm0iLCJhY3Rpb24iLCJzdGF0ZSIsImZvcm1BY3Rpb24iLCJoMSIsImZvcm0iLCJwIiwiY2xhc3NOYW1lIiwibGFiZWwiLCJodG1sRm9yIiwiaW5wdXQiLCJ0eXBlIiwiaWQiLCJuYW1lIiwiYWNjZXB0IiwidGV4dGFyZWEiLCJyb3dzIiwiZXJyb3JzIiwibGVuZ3RoIiwidWwiLCJyb2xlIiwibWFwIiwiZXJyb3IiLCJpZHgiLCJsaSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./components/post-form.js\n");
 
 /***/ }),
 
@@ -234,7 +509,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createPost: () => (/* binding */ createPost)\n/* harmony export */ });\n/* harmony import */ var private_next_rsc_action_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! private-next-rsc-action-proxy */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-proxy.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! private-next-rsc-action-encryption */ \"(rsc)/./node_modules/next/dist/server/app-render/action-encryption.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/navigation */ \"(rsc)/./node_modules/next/dist/api/navigation.js\");\n/* harmony import */ var _lib_posts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/lib/posts */ \"(rsc)/./lib/posts.js\");\n/* harmony import */ var private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! private-next-rsc-action-validate */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-validate.js\");\n/* __next_internal_action_entry_do_not_use__ {\"40aaf7eb73f662debe636312114a68be55e5288d\":\"createPost\"} */ \n\n\n\n// had to make prevState the first argument due to funneling this action in the useActionState hook in post-form.js\nasync function createPost(prevState, formData) {\n    const title = formData.get(\"title\");\n    const image = formData.get(\"image\");\n    const content = formData.get(\"content\");\n    let errors = [];\n    if (!title || title.trim().length === 0) {\n        errors.push(\"Title is required\");\n    }\n    if (!content || content.trim().length === 0) {\n        errors.push(\"Content is required\");\n    }\n    if (!image || image.size === 0) {\n        errors.push(\"Image is required\");\n    }\n    if (errors.length > 0) {\n        return {\n            errors\n        };\n    }\n    await (0,_lib_posts__WEBPACK_IMPORTED_MODULE_3__.storePost)({\n        imageUrl: \"\",\n        title,\n        content,\n        userId: 1\n    });\n    (0,next_navigation__WEBPACK_IMPORTED_MODULE_2__.redirect)(\"/feed\");\n}\n\n(0,private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_4__.ensureServerEntryExports)([\n    createPost\n]);\n(0,private_next_rsc_action_proxy__WEBPACK_IMPORTED_MODULE_0__.createActionProxy)(\"40aaf7eb73f662debe636312114a68be55e5288d\", createPost);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hY3Rpb25zL3Bvc3RzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUMyQztBQUNIO0FBQ3hDLG1IQUFtSDtBQUM1RyxlQUFlRSxXQUFXQyxTQUFTLEVBQUVDLFFBQVE7SUFDbEQsTUFBTUMsUUFBUUQsU0FBU0UsR0FBRyxDQUFDO0lBQzNCLE1BQU1DLFFBQVFILFNBQVNFLEdBQUcsQ0FBQztJQUMzQixNQUFNRSxVQUFVSixTQUFTRSxHQUFHLENBQUM7SUFFN0IsSUFBSUcsU0FBUyxFQUFFO0lBRWYsSUFBSSxDQUFDSixTQUFTQSxNQUFNSyxJQUFJLEdBQUdDLE1BQU0sS0FBSyxHQUFHO1FBQ3ZDRixPQUFPRyxJQUFJLENBQUM7SUFDZDtJQUVBLElBQUksQ0FBQ0osV0FBV0EsUUFBUUUsSUFBSSxHQUFHQyxNQUFNLEtBQUssR0FBRztRQUMzQ0YsT0FBT0csSUFBSSxDQUFDO0lBQ2Q7SUFFQSxJQUFJLENBQUNMLFNBQVNBLE1BQU1NLElBQUksS0FBSyxHQUFHO1FBQzlCSixPQUFPRyxJQUFJLENBQUM7SUFDZDtJQUVBLElBQUlILE9BQU9FLE1BQU0sR0FBRyxHQUFHO1FBQ3JCLE9BQU87WUFBRUY7UUFBTztJQUNsQjtJQUVBLE1BQU1SLHFEQUFTQSxDQUFDO1FBQ2RhLFVBQVU7UUFDVlQ7UUFDQUc7UUFDQU8sUUFBUTtJQUNWO0lBRUFmLHlEQUFRQSxDQUFDO0FBQ1giLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tdXRhdGlvbi8uL2FjdGlvbnMvcG9zdHMuanM/M2I3MyJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzZXJ2ZXJcIjtcbmltcG9ydCB7IHJlZGlyZWN0IH0gZnJvbSBcIm5leHQvbmF2aWdhdGlvblwiO1xuaW1wb3J0IHsgc3RvcmVQb3N0IH0gZnJvbSBcIkAvbGliL3Bvc3RzXCI7XG4vLyBoYWQgdG8gbWFrZSBwcmV2U3RhdGUgdGhlIGZpcnN0IGFyZ3VtZW50IGR1ZSB0byBmdW5uZWxpbmcgdGhpcyBhY3Rpb24gaW4gdGhlIHVzZUFjdGlvblN0YXRlIGhvb2sgaW4gcG9zdC1mb3JtLmpzXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gY3JlYXRlUG9zdChwcmV2U3RhdGUsIGZvcm1EYXRhKSB7XG4gIGNvbnN0IHRpdGxlID0gZm9ybURhdGEuZ2V0KFwidGl0bGVcIik7XG4gIGNvbnN0IGltYWdlID0gZm9ybURhdGEuZ2V0KFwiaW1hZ2VcIik7XG4gIGNvbnN0IGNvbnRlbnQgPSBmb3JtRGF0YS5nZXQoXCJjb250ZW50XCIpO1xuXG4gIGxldCBlcnJvcnMgPSBbXTtcblxuICBpZiAoIXRpdGxlIHx8IHRpdGxlLnRyaW0oKS5sZW5ndGggPT09IDApIHtcbiAgICBlcnJvcnMucHVzaChcIlRpdGxlIGlzIHJlcXVpcmVkXCIpO1xuICB9XG5cbiAgaWYgKCFjb250ZW50IHx8IGNvbnRlbnQudHJpbSgpLmxlbmd0aCA9PT0gMCkge1xuICAgIGVycm9ycy5wdXNoKFwiQ29udGVudCBpcyByZXF1aXJlZFwiKTtcbiAgfVxuXG4gIGlmICghaW1hZ2UgfHwgaW1hZ2Uuc2l6ZSA9PT0gMCkge1xuICAgIGVycm9ycy5wdXNoKFwiSW1hZ2UgaXMgcmVxdWlyZWRcIik7XG4gIH1cblxuICBpZiAoZXJyb3JzLmxlbmd0aCA+IDApIHtcbiAgICByZXR1cm4geyBlcnJvcnMgfTtcbiAgfVxuXG4gIGF3YWl0IHN0b3JlUG9zdCh7XG4gICAgaW1hZ2VVcmw6IFwiXCIsXG4gICAgdGl0bGUsXG4gICAgY29udGVudCxcbiAgICB1c2VySWQ6IDEsXG4gIH0pO1xuXG4gIHJlZGlyZWN0KFwiL2ZlZWRcIik7XG59XG4iXSwibmFtZXMiOlsicmVkaXJlY3QiLCJzdG9yZVBvc3QiLCJjcmVhdGVQb3N0IiwicHJldlN0YXRlIiwiZm9ybURhdGEiLCJ0aXRsZSIsImdldCIsImltYWdlIiwiY29udGVudCIsImVycm9ycyIsInRyaW0iLCJsZW5ndGgiLCJwdXNoIiwic2l6ZSIsImltYWdlVXJsIiwidXNlcklkIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./actions/posts.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createPost: () => (/* binding */ createPost)\n/* harmony export */ });\n/* harmony import */ var private_next_rsc_action_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! private-next-rsc-action-proxy */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-proxy.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! private-next-rsc-action-encryption */ \"(rsc)/./node_modules/next/dist/server/app-render/action-encryption.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/navigation */ \"(rsc)/./node_modules/next/dist/api/navigation.js\");\n/* harmony import */ var _lib_posts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/lib/posts */ \"(rsc)/./lib/posts.js\");\n/* harmony import */ var _lib_cloudinary__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/lib/cloudinary */ \"(rsc)/./lib/cloudinary.js\");\n/* harmony import */ var private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! private-next-rsc-action-validate */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-validate.js\");\n/* __next_internal_action_entry_do_not_use__ {\"40aaf7eb73f662debe636312114a68be55e5288d\":\"createPost\"} */ \n\n\n\n\n// had to make prevState the first argument due to funneling this action in the useActionState hook in post-form.js\nasync function createPost(prevState, formData) {\n    const title = formData.get(\"title\");\n    const image = formData.get(\"image\");\n    const content = formData.get(\"content\");\n    let errors = [];\n    if (!title || title.trim().length === 0) {\n        errors.push(\"Title is required\");\n    }\n    if (!content || content.trim().length === 0) {\n        errors.push(\"Content is required\");\n    }\n    if (!image || image.size === 0) {\n        errors.push(\"Image is required\");\n    }\n    if (errors.length > 0) {\n        return {\n            errors\n        };\n    }\n    let imageUrl;\n    // upload image to cloudinary\n    try {\n        imageUrl = await (0,_lib_cloudinary__WEBPACK_IMPORTED_MODULE_4__.uploadImage)(image);\n    } catch (error) {\n        throw new Error(\"Image upload failed, post not created, try again later.\");\n    }\n    await (0,_lib_posts__WEBPACK_IMPORTED_MODULE_3__.storePost)({\n        imageUrl,\n        title,\n        content,\n        userId: 1\n    });\n    (0,next_navigation__WEBPACK_IMPORTED_MODULE_2__.redirect)(\"/feed\");\n}\n\n(0,private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_5__.ensureServerEntryExports)([\n    createPost\n]);\n(0,private_next_rsc_action_proxy__WEBPACK_IMPORTED_MODULE_0__.createActionProxy)(\"40aaf7eb73f662debe636312114a68be55e5288d\", createPost);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hY3Rpb25zL3Bvc3RzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFDMkM7QUFDSDtBQUNPO0FBQy9DLG1IQUFtSDtBQUM1RyxlQUFlRyxXQUFXQyxTQUFTLEVBQUVDLFFBQVE7SUFDbEQsTUFBTUMsUUFBUUQsU0FBU0UsR0FBRyxDQUFDO0lBQzNCLE1BQU1DLFFBQVFILFNBQVNFLEdBQUcsQ0FBQztJQUMzQixNQUFNRSxVQUFVSixTQUFTRSxHQUFHLENBQUM7SUFFN0IsSUFBSUcsU0FBUyxFQUFFO0lBRWYsSUFBSSxDQUFDSixTQUFTQSxNQUFNSyxJQUFJLEdBQUdDLE1BQU0sS0FBSyxHQUFHO1FBQ3ZDRixPQUFPRyxJQUFJLENBQUM7SUFDZDtJQUVBLElBQUksQ0FBQ0osV0FBV0EsUUFBUUUsSUFBSSxHQUFHQyxNQUFNLEtBQUssR0FBRztRQUMzQ0YsT0FBT0csSUFBSSxDQUFDO0lBQ2Q7SUFFQSxJQUFJLENBQUNMLFNBQVNBLE1BQU1NLElBQUksS0FBSyxHQUFHO1FBQzlCSixPQUFPRyxJQUFJLENBQUM7SUFDZDtJQUVBLElBQUlILE9BQU9FLE1BQU0sR0FBRyxHQUFHO1FBQ3JCLE9BQU87WUFBRUY7UUFBTztJQUNsQjtJQUVBLElBQUlLO0lBRUosNkJBQTZCO0lBQzdCLElBQUk7UUFDRkEsV0FBVyxNQUFNYiw0REFBV0EsQ0FBQ007SUFDL0IsRUFBRSxPQUFPUSxPQUFPO1FBQ2QsTUFBTSxJQUFJQyxNQUFNO0lBQ2xCO0lBRUEsTUFBTWhCLHFEQUFTQSxDQUFDO1FBQ2RjO1FBQ0FUO1FBQ0FHO1FBQ0FTLFFBQVE7SUFDVjtJQUVBbEIseURBQVFBLENBQUM7QUFDWCIsInNvdXJjZXMiOlsid2VicGFjazovL211dGF0aW9uLy4vYWN0aW9ucy9wb3N0cy5qcz8zYjczIl0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHNlcnZlclwiO1xuaW1wb3J0IHsgcmVkaXJlY3QgfSBmcm9tIFwibmV4dC9uYXZpZ2F0aW9uXCI7XG5pbXBvcnQgeyBzdG9yZVBvc3QgfSBmcm9tIFwiQC9saWIvcG9zdHNcIjtcbmltcG9ydCB7IHVwbG9hZEltYWdlIH0gZnJvbSBcIkAvbGliL2Nsb3VkaW5hcnlcIjtcbi8vIGhhZCB0byBtYWtlIHByZXZTdGF0ZSB0aGUgZmlyc3QgYXJndW1lbnQgZHVlIHRvIGZ1bm5lbGluZyB0aGlzIGFjdGlvbiBpbiB0aGUgdXNlQWN0aW9uU3RhdGUgaG9vayBpbiBwb3N0LWZvcm0uanNcbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjcmVhdGVQb3N0KHByZXZTdGF0ZSwgZm9ybURhdGEpIHtcbiAgY29uc3QgdGl0bGUgPSBmb3JtRGF0YS5nZXQoXCJ0aXRsZVwiKTtcbiAgY29uc3QgaW1hZ2UgPSBmb3JtRGF0YS5nZXQoXCJpbWFnZVwiKTtcbiAgY29uc3QgY29udGVudCA9IGZvcm1EYXRhLmdldChcImNvbnRlbnRcIik7XG5cbiAgbGV0IGVycm9ycyA9IFtdO1xuXG4gIGlmICghdGl0bGUgfHwgdGl0bGUudHJpbSgpLmxlbmd0aCA9PT0gMCkge1xuICAgIGVycm9ycy5wdXNoKFwiVGl0bGUgaXMgcmVxdWlyZWRcIik7XG4gIH1cblxuICBpZiAoIWNvbnRlbnQgfHwgY29udGVudC50cmltKCkubGVuZ3RoID09PSAwKSB7XG4gICAgZXJyb3JzLnB1c2goXCJDb250ZW50IGlzIHJlcXVpcmVkXCIpO1xuICB9XG5cbiAgaWYgKCFpbWFnZSB8fCBpbWFnZS5zaXplID09PSAwKSB7XG4gICAgZXJyb3JzLnB1c2goXCJJbWFnZSBpcyByZXF1aXJlZFwiKTtcbiAgfVxuXG4gIGlmIChlcnJvcnMubGVuZ3RoID4gMCkge1xuICAgIHJldHVybiB7IGVycm9ycyB9O1xuICB9XG5cbiAgbGV0IGltYWdlVXJsO1xuXG4gIC8vIHVwbG9hZCBpbWFnZSB0byBjbG91ZGluYXJ5XG4gIHRyeSB7XG4gICAgaW1hZ2VVcmwgPSBhd2FpdCB1cGxvYWRJbWFnZShpbWFnZSk7XG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgdGhyb3cgbmV3IEVycm9yKFwiSW1hZ2UgdXBsb2FkIGZhaWxlZCwgcG9zdCBub3QgY3JlYXRlZCwgdHJ5IGFnYWluIGxhdGVyLlwiKTtcbiAgfVxuXG4gIGF3YWl0IHN0b3JlUG9zdCh7XG4gICAgaW1hZ2VVcmwsXG4gICAgdGl0bGUsXG4gICAgY29udGVudCxcbiAgICB1c2VySWQ6IDEsXG4gIH0pO1xuXG4gIHJlZGlyZWN0KFwiL2ZlZWRcIik7XG59XG4iXSwibmFtZXMiOlsicmVkaXJlY3QiLCJzdG9yZVBvc3QiLCJ1cGxvYWRJbWFnZSIsImNyZWF0ZVBvc3QiLCJwcmV2U3RhdGUiLCJmb3JtRGF0YSIsInRpdGxlIiwiZ2V0IiwiaW1hZ2UiLCJjb250ZW50IiwiZXJyb3JzIiwidHJpbSIsImxlbmd0aCIsInB1c2giLCJzaXplIiwiaW1hZ2VVcmwiLCJlcnJvciIsIkVycm9yIiwidXNlcklkIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./actions/posts.js\n");
 
 /***/ }),
 
@@ -329,6 +604,17 @@ const __default__ = proxy.default;
 
 /***/ }),
 
+/***/ "(rsc)/./lib/cloudinary.js":
+/*!***************************!*\
+  !*** ./lib/cloudinary.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   uploadImage: () => (/* binding */ uploadImage)\n/* harmony export */ });\n/* harmony import */ var cloudinary__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! cloudinary */ \"(rsc)/./node_modules/cloudinary/cloudinary.js\");\n/* harmony import */ var cloudinary__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(cloudinary__WEBPACK_IMPORTED_MODULE_0__);\n\nif (!process.env.CLOUDINARY_CLOUD_NAME) {\n    throw new Error(\"CLOUDINARY_CLOUD_NAME is not set\");\n}\nif (!process.env.CLOUDINARY_API_KEY) {\n    throw new Error(\"CLOUDINARY_API_KEY is not set\");\n}\nif (!process.env.CLOUDINARY_API_SECRET) {\n    throw new Error(\"CLOUDINARY_API_SECRET is not set\");\n}\ncloudinary__WEBPACK_IMPORTED_MODULE_0__.v2.config({\n    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,\n    api_key: process.env.CLOUDINARY_API_KEY,\n    api_secret: process.env.CLOUDINARY_API_SECRET\n});\nasync function uploadImage(image) {\n    const imageData = await image.arrayBuffer();\n    const mime = image.type;\n    const encoding = \"base64\";\n    const base64Data = Buffer.from(imageData).toString(\"base64\");\n    const fileUri = \"data:\" + mime + \";\" + encoding + \",\" + base64Data;\n    const result = await cloudinary__WEBPACK_IMPORTED_MODULE_0__.v2.uploader.upload(fileUri, {\n        folder: \"nextjs-course-mutations\"\n    });\n    return result.secure_url;\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9saWIvY2xvdWRpbmFyeS5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFBOEM7QUFFOUMsSUFBSSxDQUFDRSxRQUFRQyxHQUFHLENBQUNDLHFCQUFxQixFQUFFO0lBQ3RDLE1BQU0sSUFBSUMsTUFBTTtBQUNsQjtBQUVBLElBQUksQ0FBQ0gsUUFBUUMsR0FBRyxDQUFDRyxrQkFBa0IsRUFBRTtJQUNuQyxNQUFNLElBQUlELE1BQU07QUFDbEI7QUFFQSxJQUFJLENBQUNILFFBQVFDLEdBQUcsQ0FBQ0kscUJBQXFCLEVBQUU7SUFDdEMsTUFBTSxJQUFJRixNQUFNO0FBQ2xCO0FBRUFKLDBDQUFVQSxDQUFDTyxNQUFNLENBQUM7SUFDaEJDLFlBQVlQLFFBQVFDLEdBQUcsQ0FBQ0MscUJBQXFCO0lBQzdDTSxTQUFTUixRQUFRQyxHQUFHLENBQUNHLGtCQUFrQjtJQUN2Q0ssWUFBWVQsUUFBUUMsR0FBRyxDQUFDSSxxQkFBcUI7QUFDL0M7QUFFTyxlQUFlSyxZQUFZQyxLQUFLO0lBQ3JDLE1BQU1DLFlBQVksTUFBTUQsTUFBTUUsV0FBVztJQUN6QyxNQUFNQyxPQUFPSCxNQUFNSSxJQUFJO0lBQ3ZCLE1BQU1DLFdBQVc7SUFDakIsTUFBTUMsYUFBYUMsT0FBT0MsSUFBSSxDQUFDUCxXQUFXUSxRQUFRLENBQUM7SUFDbkQsTUFBTUMsVUFBVSxVQUFVUCxPQUFPLE1BQU1FLFdBQVcsTUFBTUM7SUFDeEQsTUFBTUssU0FBUyxNQUFNdkIsMENBQVVBLENBQUN3QixRQUFRLENBQUNDLE1BQU0sQ0FBQ0gsU0FBUztRQUN2REksUUFBUTtJQUNWO0lBQ0EsT0FBT0gsT0FBT0ksVUFBVTtBQUMxQiIsInNvdXJjZXMiOlsid2VicGFjazovL211dGF0aW9uLy4vbGliL2Nsb3VkaW5hcnkuanM/NTA1MiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB2MiBhcyBjbG91ZGluYXJ5IH0gZnJvbSBcImNsb3VkaW5hcnlcIjtcblxuaWYgKCFwcm9jZXNzLmVudi5DTE9VRElOQVJZX0NMT1VEX05BTUUpIHtcbiAgdGhyb3cgbmV3IEVycm9yKFwiQ0xPVURJTkFSWV9DTE9VRF9OQU1FIGlzIG5vdCBzZXRcIik7XG59XG5cbmlmICghcHJvY2Vzcy5lbnYuQ0xPVURJTkFSWV9BUElfS0VZKSB7XG4gIHRocm93IG5ldyBFcnJvcihcIkNMT1VESU5BUllfQVBJX0tFWSBpcyBub3Qgc2V0XCIpO1xufVxuXG5pZiAoIXByb2Nlc3MuZW52LkNMT1VESU5BUllfQVBJX1NFQ1JFVCkge1xuICB0aHJvdyBuZXcgRXJyb3IoXCJDTE9VRElOQVJZX0FQSV9TRUNSRVQgaXMgbm90IHNldFwiKTtcbn1cblxuY2xvdWRpbmFyeS5jb25maWcoe1xuICBjbG91ZF9uYW1lOiBwcm9jZXNzLmVudi5DTE9VRElOQVJZX0NMT1VEX05BTUUsXG4gIGFwaV9rZXk6IHByb2Nlc3MuZW52LkNMT1VESU5BUllfQVBJX0tFWSxcbiAgYXBpX3NlY3JldDogcHJvY2Vzcy5lbnYuQ0xPVURJTkFSWV9BUElfU0VDUkVULFxufSk7XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiB1cGxvYWRJbWFnZShpbWFnZSkge1xuICBjb25zdCBpbWFnZURhdGEgPSBhd2FpdCBpbWFnZS5hcnJheUJ1ZmZlcigpO1xuICBjb25zdCBtaW1lID0gaW1hZ2UudHlwZTtcbiAgY29uc3QgZW5jb2RpbmcgPSBcImJhc2U2NFwiO1xuICBjb25zdCBiYXNlNjREYXRhID0gQnVmZmVyLmZyb20oaW1hZ2VEYXRhKS50b1N0cmluZyhcImJhc2U2NFwiKTtcbiAgY29uc3QgZmlsZVVyaSA9IFwiZGF0YTpcIiArIG1pbWUgKyBcIjtcIiArIGVuY29kaW5nICsgXCIsXCIgKyBiYXNlNjREYXRhO1xuICBjb25zdCByZXN1bHQgPSBhd2FpdCBjbG91ZGluYXJ5LnVwbG9hZGVyLnVwbG9hZChmaWxlVXJpLCB7XG4gICAgZm9sZGVyOiBcIm5leHRqcy1jb3Vyc2UtbXV0YXRpb25zXCIsXG4gIH0pO1xuICByZXR1cm4gcmVzdWx0LnNlY3VyZV91cmw7XG59XG4iXSwibmFtZXMiOlsidjIiLCJjbG91ZGluYXJ5IiwicHJvY2VzcyIsImVudiIsIkNMT1VESU5BUllfQ0xPVURfTkFNRSIsIkVycm9yIiwiQ0xPVURJTkFSWV9BUElfS0VZIiwiQ0xPVURJTkFSWV9BUElfU0VDUkVUIiwiY29uZmlnIiwiY2xvdWRfbmFtZSIsImFwaV9rZXkiLCJhcGlfc2VjcmV0IiwidXBsb2FkSW1hZ2UiLCJpbWFnZSIsImltYWdlRGF0YSIsImFycmF5QnVmZmVyIiwibWltZSIsInR5cGUiLCJlbmNvZGluZyIsImJhc2U2NERhdGEiLCJCdWZmZXIiLCJmcm9tIiwidG9TdHJpbmciLCJmaWxlVXJpIiwicmVzdWx0IiwidXBsb2FkZXIiLCJ1cGxvYWQiLCJmb2xkZXIiLCJzZWN1cmVfdXJsIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./lib/cloudinary.js\n");
+
+/***/ }),
+
 /***/ "(rsc)/./lib/posts.js":
 /*!**********************!*\
   !*** ./lib/posts.js ***!
@@ -380,7 +666,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fnew-post%2Fpage&page=%2Fnew-post%2Fpage&appPaths=%2Fnew-post%2Fpage&pagePath=private-next-app-dir%2Fnew-post%2Fpage.js&appDir=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/cloudinary","vendor-chunks/q"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fnew-post%2Fpage&page=%2Fnew-post%2Fpage&appPaths=%2Fnew-post%2Fpage&pagePath=private-next-app-dir%2Fnew-post%2Fpage.js&appDir=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

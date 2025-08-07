@@ -1,6 +1,7 @@
 "use server";
 import { redirect } from "next/navigation";
 import { storePost } from "@/lib/posts";
+import { uploadImage } from "@/lib/cloudinary";
 // had to make prevState the first argument due to funneling this action in the useActionState hook in post-form.js
 export async function createPost(prevState, formData) {
   const title = formData.get("title");
@@ -25,8 +26,17 @@ export async function createPost(prevState, formData) {
     return { errors };
   }
 
+  let imageUrl;
+
+  // upload image to cloudinary
+  try {
+    imageUrl = await uploadImage(image);
+  } catch (error) {
+    throw new Error("Image upload failed, post not created, try again later.");
+  }
+
   await storePost({
-    imageUrl: "",
+    imageUrl,
     title,
     content,
     userId: 1,
