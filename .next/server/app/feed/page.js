@@ -23,6 +23,215 @@ module.exports = require("better-sqlite3");
 
 /***/ }),
 
+/***/ "lodash":
+/*!*************************!*\
+  !*** external "lodash" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash");
+
+/***/ }),
+
+/***/ "lodash/at":
+/*!****************************!*\
+  !*** external "lodash/at" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/at");
+
+/***/ }),
+
+/***/ "lodash/clone":
+/*!*******************************!*\
+  !*** external "lodash/clone" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/clone");
+
+/***/ }),
+
+/***/ "lodash/compact":
+/*!*********************************!*\
+  !*** external "lodash/compact" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/compact");
+
+/***/ }),
+
+/***/ "lodash/extend":
+/*!********************************!*\
+  !*** external "lodash/extend" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/extend");
+
+/***/ }),
+
+/***/ "lodash/filter":
+/*!********************************!*\
+  !*** external "lodash/filter" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/filter");
+
+/***/ }),
+
+/***/ "lodash/first":
+/*!*******************************!*\
+  !*** external "lodash/first" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/first");
+
+/***/ }),
+
+/***/ "lodash/includes":
+/*!**********************************!*\
+  !*** external "lodash/includes" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/includes");
+
+/***/ }),
+
+/***/ "lodash/isArray":
+/*!*********************************!*\
+  !*** external "lodash/isArray" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isArray");
+
+/***/ }),
+
+/***/ "lodash/isEmpty":
+/*!*********************************!*\
+  !*** external "lodash/isEmpty" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isEmpty");
+
+/***/ }),
+
+/***/ "lodash/isFunction":
+/*!************************************!*\
+  !*** external "lodash/isFunction" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isFunction");
+
+/***/ }),
+
+/***/ "lodash/isNumber":
+/*!**********************************!*\
+  !*** external "lodash/isNumber" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isNumber");
+
+/***/ }),
+
+/***/ "lodash/isObject":
+/*!**********************************!*\
+  !*** external "lodash/isObject" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isObject");
+
+/***/ }),
+
+/***/ "lodash/isPlainObject":
+/*!***************************************!*\
+  !*** external "lodash/isPlainObject" ***!
+  \***************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isPlainObject");
+
+/***/ }),
+
+/***/ "lodash/isString":
+/*!**********************************!*\
+  !*** external "lodash/isString" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isString");
+
+/***/ }),
+
+/***/ "lodash/isUndefined":
+/*!*************************************!*\
+  !*** external "lodash/isUndefined" ***!
+  \*************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isUndefined");
+
+/***/ }),
+
+/***/ "lodash/last":
+/*!******************************!*\
+  !*** external "lodash/last" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/last");
+
+/***/ }),
+
+/***/ "lodash/map":
+/*!*****************************!*\
+  !*** external "lodash/map" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/map");
+
+/***/ }),
+
+/***/ "lodash/take":
+/*!******************************!*\
+  !*** external "lodash/take" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/take");
+
+/***/ }),
+
 /***/ "./action-async-storage.external":
 /*!****************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external" ***!
@@ -100,6 +309,50 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -108,6 +361,28 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 "use strict";
 module.exports = require("path");
+
+/***/ }),
+
+/***/ "querystring":
+/*!******************************!*\
+  !*** external "querystring" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("querystring");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
 
 /***/ }),
 
@@ -133,6 +408,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Factions%2Fposts.js%22%2C%5B%22default%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!":
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Factions%2Fposts.js%22%2C%5B%22default%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true! ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\nconst actions = {\n'3c188b983d15fefb579e9c5fc116e99ddb9f117d': () => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./actions/posts.js */ \"(action-browser)/./actions/posts.js\")).then(mod => mod[\"default\"]),\n'40aaf7eb73f662debe636312114a68be55e5288d': () => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./actions/posts.js */ \"(action-browser)/./actions/posts.js\")).then(mod => mod[\"createPost\"]),\n}\n\nasync function endpoint(id, ...args) {\n  const action = await actions[id]()\n  return action.apply(null, args)\n}\n\n// Using CJS to avoid this to be tree-shaken away due to unused exports.\nmodule.exports = {\n  '3c188b983d15fefb579e9c5fc116e99ddb9f117d': endpoint.bind(null, '3c188b983d15fefb579e9c5fc116e99ddb9f117d'),\n  '40aaf7eb73f662debe636312114a68be55e5288d': endpoint.bind(null, '40aaf7eb73f662debe636312114a68be55e5288d'),\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFjdGlvbi1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWFjdGlvbi1lbnRyeS1sb2FkZXIuanM/YWN0aW9ucz0lNUIlNUIlMjIlMkZVc2VycyUyRmJsdXJsaW5naXRlJTJGRG9jdW1lbnRzJTJGTmV4dFBvc3RzJTJGYWN0aW9ucyUyRnBvc3RzLmpzJTIyJTJDJTVCJTIyZGVmYXVsdCUyMiUyQyUyMmNyZWF0ZVBvc3QlMjIlNUQlNUQlNUQmX19jbGllbnRfaW1wb3J0ZWRfXz10cnVlISIsIm1hcHBpbmdzIjoiO0FBQ0E7QUFDQSxrREFBa0QsMkpBQTRGO0FBQzlJLGtEQUFrRCwySkFBNEY7QUFDOUk7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL211dGF0aW9uLz9jODE2Il0sInNvdXJjZXNDb250ZW50IjpbIlxuY29uc3QgYWN0aW9ucyA9IHtcbiczYzE4OGI5ODNkMTVmZWZiNTc5ZTljNWZjMTE2ZTk5ZGRiOWYxMTdkJzogKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvYmx1cmxpbmdpdGUvRG9jdW1lbnRzL05leHRQb3N0cy9hY3Rpb25zL3Bvc3RzLmpzXCIpLnRoZW4obW9kID0+IG1vZFtcImRlZmF1bHRcIl0pLFxuJzQwYWFmN2ViNzNmNjYyZGViZTYzNjMxMjExNGE2OGJlNTVlNTI4OGQnOiAoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9ibHVybGluZ2l0ZS9Eb2N1bWVudHMvTmV4dFBvc3RzL2FjdGlvbnMvcG9zdHMuanNcIikudGhlbihtb2QgPT4gbW9kW1wiY3JlYXRlUG9zdFwiXSksXG59XG5cbmFzeW5jIGZ1bmN0aW9uIGVuZHBvaW50KGlkLCAuLi5hcmdzKSB7XG4gIGNvbnN0IGFjdGlvbiA9IGF3YWl0IGFjdGlvbnNbaWRdKClcbiAgcmV0dXJuIGFjdGlvbi5hcHBseShudWxsLCBhcmdzKVxufVxuXG4vLyBVc2luZyBDSlMgdG8gYXZvaWQgdGhpcyB0byBiZSB0cmVlLXNoYWtlbiBhd2F5IGR1ZSB0byB1bnVzZWQgZXhwb3J0cy5cbm1vZHVsZS5leHBvcnRzID0ge1xuICAnM2MxODhiOTgzZDE1ZmVmYjU3OWU5YzVmYzExNmU5OWRkYjlmMTE3ZCc6IGVuZHBvaW50LmJpbmQobnVsbCwgJzNjMTg4Yjk4M2QxNWZlZmI1NzllOWM1ZmMxMTZlOTlkZGI5ZjExN2QnKSxcbiAgJzQwYWFmN2ViNzNmNjYyZGViZTYzNjMxMjExNGE2OGJlNTVlNTI4OGQnOiBlbmRwb2ludC5iaW5kKG51bGwsICc0MGFhZjdlYjczZjY2MmRlYmU2MzYzMTIxMTRhNjhiZTU1ZTUyODhkJyksXG59XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Factions%2Fposts.js%22%2C%5B%22default%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!\n");
+
+/***/ }),
+
 /***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fapp%2Ffeed%2Ferror.js&server=true!":
 /*!*************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fapp%2Ffeed%2Ferror.js&server=true! ***!
@@ -150,6 +435,16 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__web
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./assets/logo.png */ \"(ssr)/./assets/logo.png\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/link.js */ \"(ssr)/./node_modules/next/dist/client/link.js\", 23))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTJGVXNlcnMlMkZibHVybGluZ2l0ZSUyRkRvY3VtZW50cyUyRk5leHRQb3N0cyUyRmFwcCUyRmdsb2JhbHMuY3NzJm1vZHVsZXM9JTJGVXNlcnMlMkZibHVybGluZ2l0ZSUyRkRvY3VtZW50cyUyRk5leHRQb3N0cyUyRmFzc2V0cyUyRmxvZ28ucG5nJm1vZHVsZXM9JTJGVXNlcnMlMkZibHVybGluZ2l0ZSUyRkRvY3VtZW50cyUyRk5leHRQb3N0cyUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZkaXN0JTJGY2xpZW50JTJGbGluay5qcyZzZXJ2ZXI9dHJ1ZSEiLCJtYXBwaW5ncyI6IkFBQUEsOElBQTJGO0FBQzNGIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbXV0YXRpb24vPzg3ZDIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvYmx1cmxpbmdpdGUvRG9jdW1lbnRzL05leHRQb3N0cy9hc3NldHMvbG9nby5wbmdcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9ibHVybGluZ2l0ZS9Eb2N1bWVudHMvTmV4dFBvc3RzL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2xpbmsuanNcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fapp%2Fglobals.css&modules=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fassets%2Flogo.png&modules=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=true!\n");
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fcomponents%2Fposts.js&server=true!":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fcomponents%2Fposts.js&server=true! ***!
+  \*************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/posts.js */ \"(ssr)/./components/posts.js\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTJGVXNlcnMlMkZibHVybGluZ2l0ZSUyRkRvY3VtZW50cyUyRk5leHRQb3N0cyUyRmNvbXBvbmVudHMlMkZwb3N0cy5qcyZzZXJ2ZXI9dHJ1ZSEiLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tdXRhdGlvbi8/ZTU4OCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9ibHVybGluZ2l0ZS9Eb2N1bWVudHMvTmV4dFBvc3RzL2NvbXBvbmVudHMvcG9zdHMuanNcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fcomponents%2Fposts.js&server=true!\n");
 
 /***/ }),
 
@@ -173,6 +468,36 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 
 /***/ }),
 
+/***/ "(ssr)/./actions/posts.js":
+/*!**************************!*\
+  !*** ./actions/posts.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createPost: () => (/* binding */ createPost),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/client/app-call-server */ "(ssr)/./node_modules/next/dist/client/app-call-server.js");
+/* harmony import */ var next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! private-next-rsc-action-client-wrapper */ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js");
+
+
+
+function __build_action__(action, args) {
+  return (0,next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__.callServer)(action.$$id, args)
+}
+
+/* __next_internal_action_entry_do_not_use__ {"3c188b983d15fefb579e9c5fc116e99ddb9f117d":"default","40aaf7eb73f662debe636312114a68be55e5288d":"createPost"} */ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("3c188b983d15fefb579e9c5fc116e99ddb9f117d"));
+
+var createPost = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("40aaf7eb73f662debe636312114a68be55e5288d");
+
+
+
+/***/ }),
+
 /***/ "(ssr)/./app/feed/error.js":
 /*!***************************!*\
   !*** ./app/feed/error.js ***!
@@ -184,6 +509,39 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "(ssr)/./components/like-icon.js":
+/*!*********************************!*\
+  !*** ./components/like-icon.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ LikeButton)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction LikeButton() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n        className: \"like-button\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n            xmlns: \"http://www.w3.org/2000/svg\",\n            viewBox: \"0 0 24 24\",\n            fill: \"currentColor\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                d: \"m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z\"\n            }, void 0, false, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/like-icon.js\",\n                lineNumber: 9,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/blurlingite/Documents/NextPosts/components/like-icon.js\",\n            lineNumber: 4,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/blurlingite/Documents/NextPosts/components/like-icon.js\",\n        lineNumber: 3,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL2xpa2UtaWNvbi5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQWUsU0FBU0E7SUFDdEIscUJBQ0UsOERBQUNDO1FBQU9DLFdBQVU7a0JBQ2hCLDRFQUFDQztZQUNDQyxPQUFNO1lBQ05DLFNBQVE7WUFDUkMsTUFBSztzQkFFTCw0RUFBQ0M7Z0JBQUtDLEdBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJaEIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tdXRhdGlvbi8uL2NvbXBvbmVudHMvbGlrZS1pY29uLmpzP2I3MzAiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTGlrZUJ1dHRvbigpIHtcbiAgcmV0dXJuIChcbiAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImxpa2UtYnV0dG9uXCI+XG4gICAgICA8c3ZnXG4gICAgICAgIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIlxuICAgICAgICB2aWV3Qm94PVwiMCAwIDI0IDI0XCJcbiAgICAgICAgZmlsbD1cImN1cnJlbnRDb2xvclwiXG4gICAgICA+XG4gICAgICAgIDxwYXRoIGQ9XCJtMTEuNjQ1IDIwLjkxLS4wMDctLjAwMy0uMDIyLS4wMTJhMTUuMjQ3IDE1LjI0NyAwIDAgMS0uMzgzLS4yMTggMjUuMTggMjUuMTggMCAwIDEtNC4yNDQtMy4xN0M0LjY4OCAxNS4zNiAyLjI1IDEyLjE3NCAyLjI1IDguMjUgMi4yNSA1LjMyMiA0LjcxNCAzIDcuNjg4IDNBNS41IDUuNSAwIDAgMSAxMiA1LjA1MiA1LjUgNS41IDAgMCAxIDE2LjMxMyAzYzIuOTczIDAgNS40MzcgMi4zMjIgNS40MzcgNS4yNSAwIDMuOTI1LTIuNDM4IDcuMTExLTQuNzM5IDkuMjU2YTI1LjE3NSAyNS4xNzUgMCAwIDEtNC4yNDQgMy4xNyAxNS4yNDcgMTUuMjQ3IDAgMCAxLS4zODMuMjE5bC0uMDIyLjAxMi0uMDA3LjAwNC0uMDAzLjAwMWEuNzUyLjc1MiAwIDAgMS0uNzA0IDBsLS4wMDMtLjAwMVpcIiAvPlxuICAgICAgPC9zdmc+XG4gICAgPC9idXR0b24+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiTGlrZUJ1dHRvbiIsImJ1dHRvbiIsImNsYXNzTmFtZSIsInN2ZyIsInhtbG5zIiwidmlld0JveCIsImZpbGwiLCJwYXRoIiwiZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./components/like-icon.js\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/posts.js":
+/*!*****************************!*\
+  !*** ./components/posts.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Posts)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/lib/format */ \"(ssr)/./lib/format.js\");\n/* harmony import */ var _like_icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./like-icon */ \"(ssr)/./components/like-icon.js\");\n/* harmony import */ var _actions_posts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/actions/posts */ \"(ssr)/./actions/posts.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\n\nfunction Post({ post, action }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"article\", {\n        className: \"post\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"post-image\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                    src: post.image,\n                    alt: post.title\n                }, void 0, false, {\n                    fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                    lineNumber: 11,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"post-content\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                        children: post.title\n                                    }, void 0, false, {\n                                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                        lineNumber: 16,\n                                        columnNumber: 13\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: [\n                                            \"Shared by \",\n                                            post.userFirstName,\n                                            \" on\",\n                                            \" \",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"time\", {\n                                                dateTime: post.createdAt,\n                                                children: (0,_lib_format__WEBPACK_IMPORTED_MODULE_1__.formatDate)(post.createdAt)\n                                            }, void 0, false, {\n                                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                                lineNumber: 19,\n                                                columnNumber: 15\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                        lineNumber: 17,\n                                        columnNumber: 13\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                lineNumber: 15,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                                    action: _actions_posts__WEBPACK_IMPORTED_MODULE_3__[\"default\"].bind(null, post.id),\n                                    className: post.isLiked ? \"liked\" : \"\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_like_icon__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                        lineNumber: 29,\n                                        columnNumber: 15\n                                    }, this)\n                                }, void 0, false, {\n                                    fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                    lineNumber: 25,\n                                    columnNumber: 13\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                lineNumber: 24,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                        lineNumber: 14,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        children: post.content\n                    }, void 0, false, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                        lineNumber: 33,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                lineNumber: 13,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, this);\n}\nfunction Posts({ posts }) {\n    const [optimisticPosts, updateOptimisticPosts] = (0,react__WEBPACK_IMPORTED_MODULE_4__.useOptimistic)(posts, (prevPosts, updatedPostId)=>{\n        const updatedPostIndex = prevPosts.findIndex((post)=>post.id === updatedPostId);\n        // if no post was found\n        if (updatedPostIndex === -1) {\n            return prevPosts;\n        }\n        const updatedPost = {\n            ...prevPosts[updatedPostIndex]\n        };\n        updatedPost.likes = updatedPost.likes + (updatedPost.isLiked ? -1 : 1);\n        updatedPost.isLiked = !updatedPost.isLiked;\n        const newPosts = [\n            ...prevPosts\n        ];\n        newPosts[updatedPostIndex] = updatedPost;\n        return newPosts;\n    });\n    if (!optimisticPosts || optimisticPosts.length === 0) {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n            children: \"There are no posts yet. Maybe start sharing some?\"\n        }, void 0, false, {\n            fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n            lineNumber: 62,\n            columnNumber: 12\n        }, this);\n    }\n    async function updatePost(postId) {\n        updateOptimisticPosts(postId);\n        await (0,_actions_posts__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(postId);\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n        className: \"posts\",\n        children: optimisticPosts.map((post)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Post, {\n                    post: post,\n                    action: updatePost\n                }, void 0, false, {\n                    fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                    lineNumber: 73,\n                    columnNumber: 11\n                }, this)\n            }, post.id, false, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                lineNumber: 72,\n                columnNumber: 9\n            }, this))\n    }, void 0, false, {\n        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n        lineNumber: 70,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL3Bvc3RzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUMwQztBQUNMO0FBQ2M7QUFDYjtBQUV0QyxTQUFTSSxLQUFLLEVBQUVDLElBQUksRUFBRUMsTUFBTSxFQUFFO0lBQzVCLHFCQUNFLDhEQUFDQztRQUFRQyxXQUFVOzswQkFDakIsOERBQUNDO2dCQUFJRCxXQUFVOzBCQUNiLDRFQUFDRTtvQkFBSUMsS0FBS04sS0FBS08sS0FBSztvQkFBRUMsS0FBS1IsS0FBS1MsS0FBSzs7Ozs7Ozs7Ozs7MEJBRXZDLDhEQUFDTDtnQkFBSUQsV0FBVTs7a0NBQ2IsOERBQUNPOzswQ0FDQyw4REFBQ047O2tEQUNDLDhEQUFDTztrREFBSVgsS0FBS1MsS0FBSzs7Ozs7O2tEQUNmLDhEQUFDRzs7NENBQUU7NENBQ1VaLEtBQUthLGFBQWE7NENBQUM7NENBQUk7MERBQ2xDLDhEQUFDQztnREFBS0MsVUFBVWYsS0FBS2dCLFNBQVM7MERBQzNCckIsdURBQVVBLENBQUNLLEtBQUtnQixTQUFTOzs7Ozs7Ozs7Ozs7Ozs7Ozs7MENBSWhDLDhEQUFDWjswQ0FDQyw0RUFBQ2E7b0NBQ0NoQixRQUFRSixzREFBb0JBLENBQUNxQixJQUFJLENBQUMsTUFBTWxCLEtBQUttQixFQUFFO29DQUMvQ2hCLFdBQVdILEtBQUtvQixPQUFPLEdBQUcsVUFBVTs4Q0FFcEMsNEVBQUN4QixrREFBVUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztrQ0FJakIsOERBQUNnQjtrQ0FBR1osS0FBS3FCLE9BQU87Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUl4QjtBQUVlLFNBQVNDLE1BQU0sRUFBRUMsS0FBSyxFQUFFO0lBQ3JDLE1BQU0sQ0FBQ0MsaUJBQWlCQyxzQkFBc0IsR0FBRzNCLG9EQUFhQSxDQUM1RHlCLE9BQ0EsQ0FBQ0csV0FBV0M7UUFDVixNQUFNQyxtQkFBbUJGLFVBQVVHLFNBQVMsQ0FDMUMsQ0FBQzdCLE9BQVNBLEtBQUttQixFQUFFLEtBQUtRO1FBR3hCLHVCQUF1QjtRQUN2QixJQUFJQyxxQkFBcUIsQ0FBQyxHQUFHO1lBQzNCLE9BQU9GO1FBQ1Q7UUFFQSxNQUFNSSxjQUFjO1lBQUUsR0FBR0osU0FBUyxDQUFDRSxpQkFBaUI7UUFBQztRQUNyREUsWUFBWUMsS0FBSyxHQUFHRCxZQUFZQyxLQUFLLEdBQUlELENBQUFBLFlBQVlWLE9BQU8sR0FBRyxDQUFDLElBQUk7UUFDcEVVLFlBQVlWLE9BQU8sR0FBRyxDQUFDVSxZQUFZVixPQUFPO1FBQzFDLE1BQU1ZLFdBQVc7ZUFBSU47U0FBVTtRQUMvQk0sUUFBUSxDQUFDSixpQkFBaUIsR0FBR0U7UUFDN0IsT0FBT0U7SUFDVDtJQUdGLElBQUksQ0FBQ1IsbUJBQW1CQSxnQkFBZ0JTLE1BQU0sS0FBSyxHQUFHO1FBQ3BELHFCQUFPLDhEQUFDckI7c0JBQUU7Ozs7OztJQUNaO0lBRUEsZUFBZXNCLFdBQVdDLE1BQU07UUFDOUJWLHNCQUFzQlU7UUFDdEIsTUFBTXRDLDBEQUFvQkEsQ0FBQ3NDO0lBQzdCO0lBQ0EscUJBQ0UsOERBQUNDO1FBQUdqQyxXQUFVO2tCQUNYcUIsZ0JBQWdCYSxHQUFHLENBQUMsQ0FBQ3JDLHFCQUNwQiw4REFBQ3NDOzBCQUNDLDRFQUFDdkM7b0JBQUtDLE1BQU1BO29CQUFNQyxRQUFRaUM7Ozs7OztlQURuQmxDLEtBQUttQixFQUFFOzs7Ozs7Ozs7O0FBTXhCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbXV0YXRpb24vLi9jb21wb25lbnRzL3Bvc3RzLmpzP2JlNzYiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2UgY2xpZW50XCI7XG5pbXBvcnQgeyBmb3JtYXREYXRlIH0gZnJvbSBcIkAvbGliL2Zvcm1hdFwiO1xuaW1wb3J0IExpa2VCdXR0b24gZnJvbSBcIi4vbGlrZS1pY29uXCI7XG5pbXBvcnQgdG9nZ2xlUG9zdExpa2VTdGF0dXMgZnJvbSBcIkAvYWN0aW9ucy9wb3N0c1wiO1xuaW1wb3J0IHsgdXNlT3B0aW1pc3RpYyB9IGZyb20gXCJyZWFjdFwiO1xuXG5mdW5jdGlvbiBQb3N0KHsgcG9zdCwgYWN0aW9uIH0pIHtcbiAgcmV0dXJuIChcbiAgICA8YXJ0aWNsZSBjbGFzc05hbWU9XCJwb3N0XCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInBvc3QtaW1hZ2VcIj5cbiAgICAgICAgPGltZyBzcmM9e3Bvc3QuaW1hZ2V9IGFsdD17cG9zdC50aXRsZX0gLz5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJwb3N0LWNvbnRlbnRcIj5cbiAgICAgICAgPGhlYWRlcj5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPGgyPntwb3N0LnRpdGxlfTwvaDI+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgU2hhcmVkIGJ5IHtwb3N0LnVzZXJGaXJzdE5hbWV9IG9ue1wiIFwifVxuICAgICAgICAgICAgICA8dGltZSBkYXRlVGltZT17cG9zdC5jcmVhdGVkQXR9PlxuICAgICAgICAgICAgICAgIHtmb3JtYXREYXRlKHBvc3QuY3JlYXRlZEF0KX1cbiAgICAgICAgICAgICAgPC90aW1lPlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICA8Zm9ybVxuICAgICAgICAgICAgICBhY3Rpb249e3RvZ2dsZVBvc3RMaWtlU3RhdHVzLmJpbmQobnVsbCwgcG9zdC5pZCl9XG4gICAgICAgICAgICAgIGNsYXNzTmFtZT17cG9zdC5pc0xpa2VkID8gXCJsaWtlZFwiIDogXCJcIn1cbiAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgPExpa2VCdXR0b24gLz5cbiAgICAgICAgICAgIDwvZm9ybT5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9oZWFkZXI+XG4gICAgICAgIDxwPntwb3N0LmNvbnRlbnR9PC9wPlxuICAgICAgPC9kaXY+XG4gICAgPC9hcnRpY2xlPlxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBQb3N0cyh7IHBvc3RzIH0pIHtcbiAgY29uc3QgW29wdGltaXN0aWNQb3N0cywgdXBkYXRlT3B0aW1pc3RpY1Bvc3RzXSA9IHVzZU9wdGltaXN0aWMoXG4gICAgcG9zdHMsXG4gICAgKHByZXZQb3N0cywgdXBkYXRlZFBvc3RJZCkgPT4ge1xuICAgICAgY29uc3QgdXBkYXRlZFBvc3RJbmRleCA9IHByZXZQb3N0cy5maW5kSW5kZXgoXG4gICAgICAgIChwb3N0KSA9PiBwb3N0LmlkID09PSB1cGRhdGVkUG9zdElkXG4gICAgICApO1xuXG4gICAgICAvLyBpZiBubyBwb3N0IHdhcyBmb3VuZFxuICAgICAgaWYgKHVwZGF0ZWRQb3N0SW5kZXggPT09IC0xKSB7XG4gICAgICAgIHJldHVybiBwcmV2UG9zdHM7XG4gICAgICB9XG5cbiAgICAgIGNvbnN0IHVwZGF0ZWRQb3N0ID0geyAuLi5wcmV2UG9zdHNbdXBkYXRlZFBvc3RJbmRleF0gfTtcbiAgICAgIHVwZGF0ZWRQb3N0Lmxpa2VzID0gdXBkYXRlZFBvc3QubGlrZXMgKyAodXBkYXRlZFBvc3QuaXNMaWtlZCA/IC0xIDogMSk7XG4gICAgICB1cGRhdGVkUG9zdC5pc0xpa2VkID0gIXVwZGF0ZWRQb3N0LmlzTGlrZWQ7XG4gICAgICBjb25zdCBuZXdQb3N0cyA9IFsuLi5wcmV2UG9zdHNdO1xuICAgICAgbmV3UG9zdHNbdXBkYXRlZFBvc3RJbmRleF0gPSB1cGRhdGVkUG9zdDtcbiAgICAgIHJldHVybiBuZXdQb3N0cztcbiAgICB9XG4gICk7XG5cbiAgaWYgKCFvcHRpbWlzdGljUG9zdHMgfHwgb3B0aW1pc3RpY1Bvc3RzLmxlbmd0aCA9PT0gMCkge1xuICAgIHJldHVybiA8cD5UaGVyZSBhcmUgbm8gcG9zdHMgeWV0LiBNYXliZSBzdGFydCBzaGFyaW5nIHNvbWU/PC9wPjtcbiAgfVxuXG4gIGFzeW5jIGZ1bmN0aW9uIHVwZGF0ZVBvc3QocG9zdElkKSB7XG4gICAgdXBkYXRlT3B0aW1pc3RpY1Bvc3RzKHBvc3RJZCk7XG4gICAgYXdhaXQgdG9nZ2xlUG9zdExpa2VTdGF0dXMocG9zdElkKTtcbiAgfVxuICByZXR1cm4gKFxuICAgIDx1bCBjbGFzc05hbWU9XCJwb3N0c1wiPlxuICAgICAge29wdGltaXN0aWNQb3N0cy5tYXAoKHBvc3QpID0+IChcbiAgICAgICAgPGxpIGtleT17cG9zdC5pZH0+XG4gICAgICAgICAgPFBvc3QgcG9zdD17cG9zdH0gYWN0aW9uPXt1cGRhdGVQb3N0fSAvPlxuICAgICAgICA8L2xpPlxuICAgICAgKSl9XG4gICAgPC91bD5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJmb3JtYXREYXRlIiwiTGlrZUJ1dHRvbiIsInRvZ2dsZVBvc3RMaWtlU3RhdHVzIiwidXNlT3B0aW1pc3RpYyIsIlBvc3QiLCJwb3N0IiwiYWN0aW9uIiwiYXJ0aWNsZSIsImNsYXNzTmFtZSIsImRpdiIsImltZyIsInNyYyIsImltYWdlIiwiYWx0IiwidGl0bGUiLCJoZWFkZXIiLCJoMiIsInAiLCJ1c2VyRmlyc3ROYW1lIiwidGltZSIsImRhdGVUaW1lIiwiY3JlYXRlZEF0IiwiZm9ybSIsImJpbmQiLCJpZCIsImlzTGlrZWQiLCJjb250ZW50IiwiUG9zdHMiLCJwb3N0cyIsIm9wdGltaXN0aWNQb3N0cyIsInVwZGF0ZU9wdGltaXN0aWNQb3N0cyIsInByZXZQb3N0cyIsInVwZGF0ZWRQb3N0SWQiLCJ1cGRhdGVkUG9zdEluZGV4IiwiZmluZEluZGV4IiwidXBkYXRlZFBvc3QiLCJsaWtlcyIsIm5ld1Bvc3RzIiwibGVuZ3RoIiwidXBkYXRlUG9zdCIsInBvc3RJZCIsInVsIiwibWFwIiwibGkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./components/posts.js\n");
+
+/***/ }),
+
+/***/ "(ssr)/./lib/format.js":
+/*!***********************!*\
+  !*** ./lib/format.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   formatDate: () => (/* binding */ formatDate)\n/* harmony export */ });\nfunction formatDate(date) {\n    return new Intl.DateTimeFormat(\"en-US\", {\n        dateStyle: \"medium\",\n        timeStyle: \"short\"\n    }).format(new Date(date));\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9saWIvZm9ybWF0LmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBTyxTQUFTQSxXQUFXQyxJQUFJO0lBQzdCLE9BQU8sSUFBSUMsS0FBS0MsY0FBYyxDQUFDLFNBQVM7UUFDdENDLFdBQVc7UUFDWEMsV0FBVztJQUNiLEdBQUdDLE1BQU0sQ0FBQyxJQUFJQyxLQUFLTjtBQUNyQiIsInNvdXJjZXMiOlsid2VicGFjazovL211dGF0aW9uLy4vbGliL2Zvcm1hdC5qcz82YTg1Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBmdW5jdGlvbiBmb3JtYXREYXRlKGRhdGUpIHtcbiAgcmV0dXJuIG5ldyBJbnRsLkRhdGVUaW1lRm9ybWF0KCdlbi1VUycsIHtcbiAgICBkYXRlU3R5bGU6ICdtZWRpdW0nLFxuICAgIHRpbWVTdHlsZTogJ3Nob3J0JyxcbiAgfSkuZm9ybWF0KG5ldyBEYXRlKGRhdGUpKTtcbn1cbiJdLCJuYW1lcyI6WyJmb3JtYXREYXRlIiwiZGF0ZSIsIkludGwiLCJEYXRlVGltZUZvcm1hdCIsImRhdGVTdHlsZSIsInRpbWVTdHlsZSIsImZvcm1hdCIsIkRhdGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./lib/format.js\n");
+
+/***/ }),
+
 /***/ "(rsc)/./app/globals.css":
 /*!*************************!*\
   !*** ./app/globals.css ***!
@@ -192,6 +550,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"26a946fe9972\");\nif (false) {}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLGNBQWM7QUFDN0IsSUFBSSxLQUFVLEVBQUUsRUFBdUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tdXRhdGlvbi8uL2FwcC9nbG9iYWxzLmNzcz8zYTBiIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiMjZhOTQ2ZmU5OTcyXCJcbmlmIChtb2R1bGUuaG90KSB7IG1vZHVsZS5ob3QuYWNjZXB0KCkgfVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/globals.css\n");
+
+/***/ }),
+
+/***/ "(action-browser)/./actions/posts.js":
+/*!**************************!*\
+  !*** ./actions/posts.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createPost: () => (/* binding */ createPost),\n/* harmony export */   \"default\": () => (/* binding */ togglePostLikeStatus)\n/* harmony export */ });\n/* harmony import */ var private_next_rsc_action_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! private-next-rsc-action-proxy */ \"(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-proxy.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! private-next-rsc-action-encryption */ \"(action-browser)/./node_modules/next/dist/server/app-render/action-encryption.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/navigation */ \"(action-browser)/./node_modules/next/dist/api/navigation.js\");\n/* harmony import */ var _lib_posts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/lib/posts */ \"(action-browser)/./lib/posts.js\");\n/* harmony import */ var _lib_cloudinary__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/lib/cloudinary */ \"(action-browser)/./lib/cloudinary.js\");\n/* harmony import */ var next_cache__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/cache */ \"(action-browser)/./node_modules/next/cache.js\");\n/* harmony import */ var next_cache__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_cache__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! private-next-rsc-action-validate */ \"(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-validate.js\");\n/* __next_internal_action_entry_do_not_use__ {\"3c188b983d15fefb579e9c5fc116e99ddb9f117d\":\"default\",\"40aaf7eb73f662debe636312114a68be55e5288d\":\"createPost\"} */ \n\n\n\n\n\n// had to make prevState the first argument due to funneling this action in the useActionState hook in post-form.js\nasync function createPost(prevState, formData) {\n    const title = formData.get(\"title\");\n    const image = formData.get(\"image\");\n    const content = formData.get(\"content\");\n    let errors = [];\n    if (!title || title.trim().length === 0) {\n        errors.push(\"Title is required\");\n    }\n    if (!content || content.trim().length === 0) {\n        errors.push(\"Content is required\");\n    }\n    if (!image || image.size === 0) {\n        errors.push(\"Image is required\");\n    }\n    if (errors.length > 0) {\n        return {\n            errors\n        };\n    }\n    let imageUrl;\n    // upload image to cloudinary\n    try {\n        imageUrl = await (0,_lib_cloudinary__WEBPACK_IMPORTED_MODULE_4__.uploadImage)(image);\n    } catch (error) {\n        throw new Error(\"Image upload failed, post not created, try again later.\");\n    }\n    await (0,_lib_posts__WEBPACK_IMPORTED_MODULE_3__.storePost)({\n        imageUrl,\n        title,\n        content,\n        userId: 1\n    });\n    (0,next_cache__WEBPACK_IMPORTED_MODULE_5__.revalidatePath)(\"/\", \"layout\");\n    (0,next_navigation__WEBPACK_IMPORTED_MODULE_2__.redirect)(\"/feed\");\n}\nasync function togglePostLikeStatus(postId) {\n    await (0,_lib_posts__WEBPACK_IMPORTED_MODULE_3__.updatePostLikeStatus)(postId, 2);\n    (0,next_cache__WEBPACK_IMPORTED_MODULE_5__.revalidatePath)(\"/\", \"layout\");\n}\n\n(0,private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_6__.ensureServerEntryExports)([\n    createPost,\n    togglePostLikeStatus\n]);\n(0,private_next_rsc_action_proxy__WEBPACK_IMPORTED_MODULE_0__.createActionProxy)(\"40aaf7eb73f662debe636312114a68be55e5288d\", createPost);\n(0,private_next_rsc_action_proxy__WEBPACK_IMPORTED_MODULE_0__.createActionProxy)(\"3c188b983d15fefb579e9c5fc116e99ddb9f117d\", togglePostLikeStatus);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFjdGlvbi1icm93c2VyKS8uL2FjdGlvbnMvcG9zdHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUMyQztBQUNtQjtBQUNmO0FBQ0g7QUFDNUMsbUhBQW1IO0FBQzVHLGVBQWVLLFdBQVdDLFNBQVMsRUFBRUMsUUFBUTtJQUNsRCxNQUFNQyxRQUFRRCxTQUFTRSxHQUFHLENBQUM7SUFDM0IsTUFBTUMsUUFBUUgsU0FBU0UsR0FBRyxDQUFDO0lBQzNCLE1BQU1FLFVBQVVKLFNBQVNFLEdBQUcsQ0FBQztJQUU3QixJQUFJRyxTQUFTLEVBQUU7SUFFZixJQUFJLENBQUNKLFNBQVNBLE1BQU1LLElBQUksR0FBR0MsTUFBTSxLQUFLLEdBQUc7UUFDdkNGLE9BQU9HLElBQUksQ0FBQztJQUNkO0lBRUEsSUFBSSxDQUFDSixXQUFXQSxRQUFRRSxJQUFJLEdBQUdDLE1BQU0sS0FBSyxHQUFHO1FBQzNDRixPQUFPRyxJQUFJLENBQUM7SUFDZDtJQUVBLElBQUksQ0FBQ0wsU0FBU0EsTUFBTU0sSUFBSSxLQUFLLEdBQUc7UUFDOUJKLE9BQU9HLElBQUksQ0FBQztJQUNkO0lBRUEsSUFBSUgsT0FBT0UsTUFBTSxHQUFHLEdBQUc7UUFDckIsT0FBTztZQUFFRjtRQUFPO0lBQ2xCO0lBRUEsSUFBSUs7SUFFSiw2QkFBNkI7SUFDN0IsSUFBSTtRQUNGQSxXQUFXLE1BQU1kLDREQUFXQSxDQUFDTztJQUMvQixFQUFFLE9BQU9RLE9BQU87UUFDZCxNQUFNLElBQUlDLE1BQU07SUFDbEI7SUFFQSxNQUFNbEIscURBQVNBLENBQUM7UUFDZGdCO1FBQ0FUO1FBQ0FHO1FBQ0FTLFFBQVE7SUFDVjtJQUVBaEIsMERBQWNBLENBQUMsS0FBSztJQUVwQkoseURBQVFBLENBQUM7QUFDWDtBQUVlLGVBQWVxQixxQkFBcUJDLE1BQU07SUFDdkQsTUFBTXBCLGdFQUFvQkEsQ0FBQ29CLFFBQVE7SUFDbkNsQiwwREFBY0EsQ0FBQyxLQUFLO0FBQ3RCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbXV0YXRpb24vLi9hY3Rpb25zL3Bvc3RzLmpzPzNiNzMiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc2VydmVyXCI7XG5pbXBvcnQgeyByZWRpcmVjdCB9IGZyb20gXCJuZXh0L25hdmlnYXRpb25cIjtcbmltcG9ydCB7IHN0b3JlUG9zdCwgdXBkYXRlUG9zdExpa2VTdGF0dXMgfSBmcm9tIFwiQC9saWIvcG9zdHNcIjtcbmltcG9ydCB7IHVwbG9hZEltYWdlIH0gZnJvbSBcIkAvbGliL2Nsb3VkaW5hcnlcIjtcbmltcG9ydCB7IHJldmFsaWRhdGVQYXRoIH0gZnJvbSBcIm5leHQvY2FjaGVcIjtcbi8vIGhhZCB0byBtYWtlIHByZXZTdGF0ZSB0aGUgZmlyc3QgYXJndW1lbnQgZHVlIHRvIGZ1bm5lbGluZyB0aGlzIGFjdGlvbiBpbiB0aGUgdXNlQWN0aW9uU3RhdGUgaG9vayBpbiBwb3N0LWZvcm0uanNcbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjcmVhdGVQb3N0KHByZXZTdGF0ZSwgZm9ybURhdGEpIHtcbiAgY29uc3QgdGl0bGUgPSBmb3JtRGF0YS5nZXQoXCJ0aXRsZVwiKTtcbiAgY29uc3QgaW1hZ2UgPSBmb3JtRGF0YS5nZXQoXCJpbWFnZVwiKTtcbiAgY29uc3QgY29udGVudCA9IGZvcm1EYXRhLmdldChcImNvbnRlbnRcIik7XG5cbiAgbGV0IGVycm9ycyA9IFtdO1xuXG4gIGlmICghdGl0bGUgfHwgdGl0bGUudHJpbSgpLmxlbmd0aCA9PT0gMCkge1xuICAgIGVycm9ycy5wdXNoKFwiVGl0bGUgaXMgcmVxdWlyZWRcIik7XG4gIH1cblxuICBpZiAoIWNvbnRlbnQgfHwgY29udGVudC50cmltKCkubGVuZ3RoID09PSAwKSB7XG4gICAgZXJyb3JzLnB1c2goXCJDb250ZW50IGlzIHJlcXVpcmVkXCIpO1xuICB9XG5cbiAgaWYgKCFpbWFnZSB8fCBpbWFnZS5zaXplID09PSAwKSB7XG4gICAgZXJyb3JzLnB1c2goXCJJbWFnZSBpcyByZXF1aXJlZFwiKTtcbiAgfVxuXG4gIGlmIChlcnJvcnMubGVuZ3RoID4gMCkge1xuICAgIHJldHVybiB7IGVycm9ycyB9O1xuICB9XG5cbiAgbGV0IGltYWdlVXJsO1xuXG4gIC8vIHVwbG9hZCBpbWFnZSB0byBjbG91ZGluYXJ5XG4gIHRyeSB7XG4gICAgaW1hZ2VVcmwgPSBhd2FpdCB1cGxvYWRJbWFnZShpbWFnZSk7XG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgdGhyb3cgbmV3IEVycm9yKFwiSW1hZ2UgdXBsb2FkIGZhaWxlZCwgcG9zdCBub3QgY3JlYXRlZCwgdHJ5IGFnYWluIGxhdGVyLlwiKTtcbiAgfVxuXG4gIGF3YWl0IHN0b3JlUG9zdCh7XG4gICAgaW1hZ2VVcmwsXG4gICAgdGl0bGUsXG4gICAgY29udGVudCxcbiAgICB1c2VySWQ6IDEsXG4gIH0pO1xuXG4gIHJldmFsaWRhdGVQYXRoKFwiL1wiLCBcImxheW91dFwiKTtcblxuICByZWRpcmVjdChcIi9mZWVkXCIpO1xufVxuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiB0b2dnbGVQb3N0TGlrZVN0YXR1cyhwb3N0SWQpIHtcbiAgYXdhaXQgdXBkYXRlUG9zdExpa2VTdGF0dXMocG9zdElkLCAyKTtcbiAgcmV2YWxpZGF0ZVBhdGgoXCIvXCIsIFwibGF5b3V0XCIpO1xufVxuIl0sIm5hbWVzIjpbInJlZGlyZWN0Iiwic3RvcmVQb3N0IiwidXBkYXRlUG9zdExpa2VTdGF0dXMiLCJ1cGxvYWRJbWFnZSIsInJldmFsaWRhdGVQYXRoIiwiY3JlYXRlUG9zdCIsInByZXZTdGF0ZSIsImZvcm1EYXRhIiwidGl0bGUiLCJnZXQiLCJpbWFnZSIsImNvbnRlbnQiLCJlcnJvcnMiLCJ0cmltIiwibGVuZ3RoIiwicHVzaCIsInNpemUiLCJpbWFnZVVybCIsImVycm9yIiwiRXJyb3IiLCJ1c2VySWQiLCJ0b2dnbGVQb3N0TGlrZVN0YXR1cyIsInBvc3RJZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(action-browser)/./actions/posts.js\n");
 
 /***/ }),
 
@@ -268,17 +637,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "(rsc)/./components/like-icon.js":
-/*!*********************************!*\
-  !*** ./components/like-icon.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ LikeButton)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction LikeButton() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n        className: \"like-button\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n            xmlns: \"http://www.w3.org/2000/svg\",\n            viewBox: \"0 0 24 24\",\n            fill: \"currentColor\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                d: \"m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z\"\n            }, void 0, false, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/like-icon.js\",\n                lineNumber: 9,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/blurlingite/Documents/NextPosts/components/like-icon.js\",\n            lineNumber: 4,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/blurlingite/Documents/NextPosts/components/like-icon.js\",\n        lineNumber: 3,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9jb21wb25lbnRzL2xpa2UtaWNvbi5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQWUsU0FBU0E7SUFDdEIscUJBQ0UsOERBQUNDO1FBQU9DLFdBQVU7a0JBQ2hCLDRFQUFDQztZQUNDQyxPQUFNO1lBQ05DLFNBQVE7WUFDUkMsTUFBSztzQkFFTCw0RUFBQ0M7Z0JBQUtDLEdBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJaEIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tdXRhdGlvbi8uL2NvbXBvbmVudHMvbGlrZS1pY29uLmpzP2I3MzAiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTGlrZUJ1dHRvbigpIHtcbiAgcmV0dXJuIChcbiAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImxpa2UtYnV0dG9uXCI+XG4gICAgICA8c3ZnXG4gICAgICAgIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIlxuICAgICAgICB2aWV3Qm94PVwiMCAwIDI0IDI0XCJcbiAgICAgICAgZmlsbD1cImN1cnJlbnRDb2xvclwiXG4gICAgICA+XG4gICAgICAgIDxwYXRoIGQ9XCJtMTEuNjQ1IDIwLjkxLS4wMDctLjAwMy0uMDIyLS4wMTJhMTUuMjQ3IDE1LjI0NyAwIDAgMS0uMzgzLS4yMTggMjUuMTggMjUuMTggMCAwIDEtNC4yNDQtMy4xN0M0LjY4OCAxNS4zNiAyLjI1IDEyLjE3NCAyLjI1IDguMjUgMi4yNSA1LjMyMiA0LjcxNCAzIDcuNjg4IDNBNS41IDUuNSAwIDAgMSAxMiA1LjA1MiA1LjUgNS41IDAgMCAxIDE2LjMxMyAzYzIuOTczIDAgNS40MzcgMi4zMjIgNS40MzcgNS4yNSAwIDMuOTI1LTIuNDM4IDcuMTExLTQuNzM5IDkuMjU2YTI1LjE3NSAyNS4xNzUgMCAwIDEtNC4yNDQgMy4xNyAxNS4yNDcgMTUuMjQ3IDAgMCAxLS4zODMuMjE5bC0uMDIyLjAxMi0uMDA3LjAwNC0uMDAzLjAwMWEuNzUyLjc1MiAwIDAgMS0uNzA0IDBsLS4wMDMtLjAwMVpcIiAvPlxuICAgICAgPC9zdmc+XG4gICAgPC9idXR0b24+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiTGlrZUJ1dHRvbiIsImJ1dHRvbiIsImNsYXNzTmFtZSIsInN2ZyIsInhtbG5zIiwidmlld0JveCIsImZpbGwiLCJwYXRoIiwiZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./components/like-icon.js\n");
-
-/***/ }),
-
 /***/ "(rsc)/./components/posts.js":
 /*!*****************************!*\
   !*** ./components/posts.js ***!
@@ -286,18 +644,47 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Posts)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/lib/format */ \"(rsc)/./lib/format.js\");\n/* harmony import */ var _like_icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./like-icon */ \"(rsc)/./components/like-icon.js\");\n\n\n\nfunction Post({ post }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"article\", {\n        className: \"post\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"post-image\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                    src: post.image,\n                    alt: post.title\n                }, void 0, false, {\n                    fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                    lineNumber: 8,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"post-content\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                        children: post.title\n                                    }, void 0, false, {\n                                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                        lineNumber: 13,\n                                        columnNumber: 13\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: [\n                                            \"Shared by \",\n                                            post.userFirstName,\n                                            \" on\",\n                                            \" \",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"time\", {\n                                                dateTime: post.createdAt,\n                                                children: (0,_lib_format__WEBPACK_IMPORTED_MODULE_1__.formatDate)(post.createdAt)\n                                            }, void 0, false, {\n                                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                                lineNumber: 16,\n                                                columnNumber: 15\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                        lineNumber: 14,\n                                        columnNumber: 13\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                lineNumber: 12,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_like_icon__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                                    fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                    lineNumber: 22,\n                                    columnNumber: 13\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                                lineNumber: 21,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                        lineNumber: 11,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        children: post.content\n                    }, void 0, false, {\n                        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                        lineNumber: 25,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n        lineNumber: 6,\n        columnNumber: 5\n    }, this);\n}\nfunction Posts({ posts }) {\n    if (!posts || posts.length === 0) {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n            children: \"There are no posts yet. Maybe start sharing some?\"\n        }, void 0, false, {\n            fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n            lineNumber: 33,\n            columnNumber: 12\n        }, this);\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n        className: \"posts\",\n        children: posts.map((post)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Post, {\n                    post: post\n                }, void 0, false, {\n                    fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                    lineNumber: 40,\n                    columnNumber: 11\n                }, this)\n            }, post.id, false, {\n                fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n                lineNumber: 39,\n                columnNumber: 9\n            }, this))\n    }, void 0, false, {\n        fileName: \"/Users/blurlingite/Documents/NextPosts/components/posts.js\",\n        lineNumber: 37,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9jb21wb25lbnRzL3Bvc3RzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUEwQztBQUNMO0FBRXJDLFNBQVNFLEtBQUssRUFBRUMsSUFBSSxFQUFFO0lBQ3BCLHFCQUNFLDhEQUFDQztRQUFRQyxXQUFVOzswQkFDakIsOERBQUNDO2dCQUFJRCxXQUFVOzBCQUNiLDRFQUFDRTtvQkFBSUMsS0FBS0wsS0FBS00sS0FBSztvQkFBRUMsS0FBS1AsS0FBS1EsS0FBSzs7Ozs7Ozs7Ozs7MEJBRXZDLDhEQUFDTDtnQkFBSUQsV0FBVTs7a0NBQ2IsOERBQUNPOzswQ0FDQyw4REFBQ047O2tEQUNDLDhEQUFDTztrREFBSVYsS0FBS1EsS0FBSzs7Ozs7O2tEQUNmLDhEQUFDRzs7NENBQUU7NENBQ1VYLEtBQUtZLGFBQWE7NENBQUM7NENBQUk7MERBQ2xDLDhEQUFDQztnREFBS0MsVUFBVWQsS0FBS2UsU0FBUzswREFDM0JsQix1REFBVUEsQ0FBQ0csS0FBS2UsU0FBUzs7Ozs7Ozs7Ozs7Ozs7Ozs7OzBDQUloQyw4REFBQ1o7MENBQ0MsNEVBQUNMLGtEQUFVQTs7Ozs7Ozs7Ozs7Ozs7OztrQ0FHZiw4REFBQ2E7a0NBQUdYLEtBQUtnQixPQUFPOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJeEI7QUFFZSxTQUFTQyxNQUFNLEVBQUVDLEtBQUssRUFBRTtJQUNyQyxJQUFJLENBQUNBLFNBQVNBLE1BQU1DLE1BQU0sS0FBSyxHQUFHO1FBQ2hDLHFCQUFPLDhEQUFDUjtzQkFBRTs7Ozs7O0lBQ1o7SUFFQSxxQkFDRSw4REFBQ1M7UUFBR2xCLFdBQVU7a0JBQ1hnQixNQUFNRyxHQUFHLENBQUMsQ0FBQ3JCLHFCQUNWLDhEQUFDc0I7MEJBQ0MsNEVBQUN2QjtvQkFBS0MsTUFBTUE7Ozs7OztlQURMQSxLQUFLdUIsRUFBRTs7Ozs7Ozs7OztBQU14QiIsInNvdXJjZXMiOlsid2VicGFjazovL211dGF0aW9uLy4vY29tcG9uZW50cy9wb3N0cy5qcz9iZTc2Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGZvcm1hdERhdGUgfSBmcm9tICdAL2xpYi9mb3JtYXQnO1xuaW1wb3J0IExpa2VCdXR0b24gZnJvbSAnLi9saWtlLWljb24nO1xuXG5mdW5jdGlvbiBQb3N0KHsgcG9zdCB9KSB7XG4gIHJldHVybiAoXG4gICAgPGFydGljbGUgY2xhc3NOYW1lPVwicG9zdFwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJwb3N0LWltYWdlXCI+XG4gICAgICAgIDxpbWcgc3JjPXtwb3N0LmltYWdlfSBhbHQ9e3Bvc3QudGl0bGV9IC8+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicG9zdC1jb250ZW50XCI+XG4gICAgICAgIDxoZWFkZXI+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxoMj57cG9zdC50aXRsZX08L2gyPlxuICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgIFNoYXJlZCBieSB7cG9zdC51c2VyRmlyc3ROYW1lfSBvbnsnICd9XG4gICAgICAgICAgICAgIDx0aW1lIGRhdGVUaW1lPXtwb3N0LmNyZWF0ZWRBdH0+XG4gICAgICAgICAgICAgICAge2Zvcm1hdERhdGUocG9zdC5jcmVhdGVkQXQpfVxuICAgICAgICAgICAgICA8L3RpbWU+XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxMaWtlQnV0dG9uIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvaGVhZGVyPlxuICAgICAgICA8cD57cG9zdC5jb250ZW50fTwvcD5cbiAgICAgIDwvZGl2PlxuICAgIDwvYXJ0aWNsZT5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUG9zdHMoeyBwb3N0cyB9KSB7XG4gIGlmICghcG9zdHMgfHwgcG9zdHMubGVuZ3RoID09PSAwKSB7XG4gICAgcmV0dXJuIDxwPlRoZXJlIGFyZSBubyBwb3N0cyB5ZXQuIE1heWJlIHN0YXJ0IHNoYXJpbmcgc29tZT88L3A+O1xuICB9XG5cbiAgcmV0dXJuIChcbiAgICA8dWwgY2xhc3NOYW1lPVwicG9zdHNcIj5cbiAgICAgIHtwb3N0cy5tYXAoKHBvc3QpID0+IChcbiAgICAgICAgPGxpIGtleT17cG9zdC5pZH0+XG4gICAgICAgICAgPFBvc3QgcG9zdD17cG9zdH0gLz5cbiAgICAgICAgPC9saT5cbiAgICAgICkpfVxuICAgIDwvdWw+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiZm9ybWF0RGF0ZSIsIkxpa2VCdXR0b24iLCJQb3N0IiwicG9zdCIsImFydGljbGUiLCJjbGFzc05hbWUiLCJkaXYiLCJpbWciLCJzcmMiLCJpbWFnZSIsImFsdCIsInRpdGxlIiwiaGVhZGVyIiwiaDIiLCJwIiwidXNlckZpcnN0TmFtZSIsInRpbWUiLCJkYXRlVGltZSIsImNyZWF0ZWRBdCIsImNvbnRlbnQiLCJQb3N0cyIsInBvc3RzIiwibGVuZ3RoIiwidWwiLCJtYXAiLCJsaSIsImlkIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./components/posts.js\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/blurlingite/Documents/NextPosts/components/posts.js`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
 /***/ }),
 
-/***/ "(rsc)/./lib/format.js":
-/*!***********************!*\
-  !*** ./lib/format.js ***!
-  \***********************/
+/***/ "(action-browser)/./lib/cloudinary.js":
+/*!***************************!*\
+  !*** ./lib/cloudinary.js ***!
+  \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   formatDate: () => (/* binding */ formatDate)\n/* harmony export */ });\nfunction formatDate(date) {\n    return new Intl.DateTimeFormat(\"en-US\", {\n        dateStyle: \"medium\",\n        timeStyle: \"short\"\n    }).format(new Date(date));\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9saWIvZm9ybWF0LmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBTyxTQUFTQSxXQUFXQyxJQUFJO0lBQzdCLE9BQU8sSUFBSUMsS0FBS0MsY0FBYyxDQUFDLFNBQVM7UUFDdENDLFdBQVc7UUFDWEMsV0FBVztJQUNiLEdBQUdDLE1BQU0sQ0FBQyxJQUFJQyxLQUFLTjtBQUNyQiIsInNvdXJjZXMiOlsid2VicGFjazovL211dGF0aW9uLy4vbGliL2Zvcm1hdC5qcz82YTg1Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBmdW5jdGlvbiBmb3JtYXREYXRlKGRhdGUpIHtcbiAgcmV0dXJuIG5ldyBJbnRsLkRhdGVUaW1lRm9ybWF0KCdlbi1VUycsIHtcbiAgICBkYXRlU3R5bGU6ICdtZWRpdW0nLFxuICAgIHRpbWVTdHlsZTogJ3Nob3J0JyxcbiAgfSkuZm9ybWF0KG5ldyBEYXRlKGRhdGUpKTtcbn1cbiJdLCJuYW1lcyI6WyJmb3JtYXREYXRlIiwiZGF0ZSIsIkludGwiLCJEYXRlVGltZUZvcm1hdCIsImRhdGVTdHlsZSIsInRpbWVTdHlsZSIsImZvcm1hdCIsIkRhdGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./lib/format.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   uploadImage: () => (/* binding */ uploadImage)\n/* harmony export */ });\n/* harmony import */ var cloudinary__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! cloudinary */ \"(action-browser)/./node_modules/cloudinary/cloudinary.js\");\n/* harmony import */ var cloudinary__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(cloudinary__WEBPACK_IMPORTED_MODULE_0__);\n\nif (!process.env.CLOUDINARY_CLOUD_NAME) {\n    throw new Error(\"CLOUDINARY_CLOUD_NAME is not set\");\n}\nif (!process.env.CLOUDINARY_API_KEY) {\n    throw new Error(\"CLOUDINARY_API_KEY is not set\");\n}\nif (!process.env.CLOUDINARY_API_SECRET) {\n    throw new Error(\"CLOUDINARY_API_SECRET is not set\");\n}\ncloudinary__WEBPACK_IMPORTED_MODULE_0__.v2.config({\n    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,\n    api_key: process.env.CLOUDINARY_API_KEY,\n    api_secret: process.env.CLOUDINARY_API_SECRET\n});\nasync function uploadImage(image) {\n    const imageData = await image.arrayBuffer();\n    const mime = image.type;\n    const encoding = \"base64\";\n    const base64Data = Buffer.from(imageData).toString(\"base64\");\n    const fileUri = \"data:\" + mime + \";\" + encoding + \",\" + base64Data;\n    const result = await cloudinary__WEBPACK_IMPORTED_MODULE_0__.v2.uploader.upload(fileUri, {\n        folder: \"nextjs-course-mutations\"\n    });\n    return result.secure_url;\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFjdGlvbi1icm93c2VyKS8uL2xpYi9jbG91ZGluYXJ5LmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUE4QztBQUU5QyxJQUFJLENBQUNFLFFBQVFDLEdBQUcsQ0FBQ0MscUJBQXFCLEVBQUU7SUFDdEMsTUFBTSxJQUFJQyxNQUFNO0FBQ2xCO0FBRUEsSUFBSSxDQUFDSCxRQUFRQyxHQUFHLENBQUNHLGtCQUFrQixFQUFFO0lBQ25DLE1BQU0sSUFBSUQsTUFBTTtBQUNsQjtBQUVBLElBQUksQ0FBQ0gsUUFBUUMsR0FBRyxDQUFDSSxxQkFBcUIsRUFBRTtJQUN0QyxNQUFNLElBQUlGLE1BQU07QUFDbEI7QUFFQUosMENBQVVBLENBQUNPLE1BQU0sQ0FBQztJQUNoQkMsWUFBWVAsUUFBUUMsR0FBRyxDQUFDQyxxQkFBcUI7SUFDN0NNLFNBQVNSLFFBQVFDLEdBQUcsQ0FBQ0csa0JBQWtCO0lBQ3ZDSyxZQUFZVCxRQUFRQyxHQUFHLENBQUNJLHFCQUFxQjtBQUMvQztBQUVPLGVBQWVLLFlBQVlDLEtBQUs7SUFDckMsTUFBTUMsWUFBWSxNQUFNRCxNQUFNRSxXQUFXO0lBQ3pDLE1BQU1DLE9BQU9ILE1BQU1JLElBQUk7SUFDdkIsTUFBTUMsV0FBVztJQUNqQixNQUFNQyxhQUFhQyxPQUFPQyxJQUFJLENBQUNQLFdBQVdRLFFBQVEsQ0FBQztJQUNuRCxNQUFNQyxVQUFVLFVBQVVQLE9BQU8sTUFBTUUsV0FBVyxNQUFNQztJQUN4RCxNQUFNSyxTQUFTLE1BQU12QiwwQ0FBVUEsQ0FBQ3dCLFFBQVEsQ0FBQ0MsTUFBTSxDQUFDSCxTQUFTO1FBQ3ZESSxRQUFRO0lBQ1Y7SUFDQSxPQUFPSCxPQUFPSSxVQUFVO0FBQzFCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbXV0YXRpb24vLi9saWIvY2xvdWRpbmFyeS5qcz81MDUyIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHYyIGFzIGNsb3VkaW5hcnkgfSBmcm9tIFwiY2xvdWRpbmFyeVwiO1xuXG5pZiAoIXByb2Nlc3MuZW52LkNMT1VESU5BUllfQ0xPVURfTkFNRSkge1xuICB0aHJvdyBuZXcgRXJyb3IoXCJDTE9VRElOQVJZX0NMT1VEX05BTUUgaXMgbm90IHNldFwiKTtcbn1cblxuaWYgKCFwcm9jZXNzLmVudi5DTE9VRElOQVJZX0FQSV9LRVkpIHtcbiAgdGhyb3cgbmV3IEVycm9yKFwiQ0xPVURJTkFSWV9BUElfS0VZIGlzIG5vdCBzZXRcIik7XG59XG5cbmlmICghcHJvY2Vzcy5lbnYuQ0xPVURJTkFSWV9BUElfU0VDUkVUKSB7XG4gIHRocm93IG5ldyBFcnJvcihcIkNMT1VESU5BUllfQVBJX1NFQ1JFVCBpcyBub3Qgc2V0XCIpO1xufVxuXG5jbG91ZGluYXJ5LmNvbmZpZyh7XG4gIGNsb3VkX25hbWU6IHByb2Nlc3MuZW52LkNMT1VESU5BUllfQ0xPVURfTkFNRSxcbiAgYXBpX2tleTogcHJvY2Vzcy5lbnYuQ0xPVURJTkFSWV9BUElfS0VZLFxuICBhcGlfc2VjcmV0OiBwcm9jZXNzLmVudi5DTE9VRElOQVJZX0FQSV9TRUNSRVQsXG59KTtcblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHVwbG9hZEltYWdlKGltYWdlKSB7XG4gIGNvbnN0IGltYWdlRGF0YSA9IGF3YWl0IGltYWdlLmFycmF5QnVmZmVyKCk7XG4gIGNvbnN0IG1pbWUgPSBpbWFnZS50eXBlO1xuICBjb25zdCBlbmNvZGluZyA9IFwiYmFzZTY0XCI7XG4gIGNvbnN0IGJhc2U2NERhdGEgPSBCdWZmZXIuZnJvbShpbWFnZURhdGEpLnRvU3RyaW5nKFwiYmFzZTY0XCIpO1xuICBjb25zdCBmaWxlVXJpID0gXCJkYXRhOlwiICsgbWltZSArIFwiO1wiICsgZW5jb2RpbmcgKyBcIixcIiArIGJhc2U2NERhdGE7XG4gIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGNsb3VkaW5hcnkudXBsb2FkZXIudXBsb2FkKGZpbGVVcmksIHtcbiAgICBmb2xkZXI6IFwibmV4dGpzLWNvdXJzZS1tdXRhdGlvbnNcIixcbiAgfSk7XG4gIHJldHVybiByZXN1bHQuc2VjdXJlX3VybDtcbn1cbiJdLCJuYW1lcyI6WyJ2MiIsImNsb3VkaW5hcnkiLCJwcm9jZXNzIiwiZW52IiwiQ0xPVURJTkFSWV9DTE9VRF9OQU1FIiwiRXJyb3IiLCJDTE9VRElOQVJZX0FQSV9LRVkiLCJDTE9VRElOQVJZX0FQSV9TRUNSRVQiLCJjb25maWciLCJjbG91ZF9uYW1lIiwiYXBpX2tleSIsImFwaV9zZWNyZXQiLCJ1cGxvYWRJbWFnZSIsImltYWdlIiwiaW1hZ2VEYXRhIiwiYXJyYXlCdWZmZXIiLCJtaW1lIiwidHlwZSIsImVuY29kaW5nIiwiYmFzZTY0RGF0YSIsIkJ1ZmZlciIsImZyb20iLCJ0b1N0cmluZyIsImZpbGVVcmkiLCJyZXN1bHQiLCJ1cGxvYWRlciIsInVwbG9hZCIsImZvbGRlciIsInNlY3VyZV91cmwiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(action-browser)/./lib/cloudinary.js\n");
+
+/***/ }),
+
+/***/ "(action-browser)/./lib/posts.js":
+/*!**********************!*\
+  !*** ./lib/posts.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getPosts: () => (/* binding */ getPosts),\n/* harmony export */   storePost: () => (/* binding */ storePost),\n/* harmony export */   updatePostLikeStatus: () => (/* binding */ updatePostLikeStatus)\n/* harmony export */ });\n/* harmony import */ var better_sqlite3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! better-sqlite3 */ \"better-sqlite3\");\n/* harmony import */ var better_sqlite3__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(better_sqlite3__WEBPACK_IMPORTED_MODULE_0__);\n\nconst db = new (better_sqlite3__WEBPACK_IMPORTED_MODULE_0___default())(\"posts.db\");\nfunction initDb() {\n    db.exec(`\n    CREATE TABLE IF NOT EXISTS users (\n      id INTEGER PRIMARY KEY, \n      first_name TEXT, \n      last_name TEXT,\n      email TEXT\n    )`);\n    db.exec(`\n    CREATE TABLE IF NOT EXISTS posts (\n      id INTEGER PRIMARY KEY, \n      image_url TEXT NOT NULL,\n      title TEXT NOT NULL, \n      content TEXT NOT NULL, \n      created_at TEXT DEFAULT CURRENT_TIMESTAMP,\n      user_id INTEGER, \n      FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE\n    )`);\n    db.exec(`\n    CREATE TABLE IF NOT EXISTS likes (\n      user_id INTEGER, \n      post_id INTEGER, \n      PRIMARY KEY(user_id, post_id),\n      FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE, \n      FOREIGN KEY(post_id) REFERENCES posts(id) ON DELETE CASCADE\n    )`);\n    // Creating two dummy users if they don't exist already\n    const stmt = db.prepare(\"SELECT COUNT(*) AS count FROM users\");\n    if (stmt.get().count === 0) {\n        db.exec(`\n    INSERT INTO users (first_name, last_name, email)\n    VALUES ('John', 'Doe', 'john@example.com')\n  `);\n        db.exec(`\n    INSERT INTO users (first_name, last_name, email)\n    VALUES ('Max', 'Schwarz', 'max@example.com')\n  `);\n    }\n}\ninitDb();\nasync function getPosts(maxNumber) {\n    let limitClause = \"\";\n    if (maxNumber) {\n        limitClause = \"LIMIT ?\";\n    }\n    const stmt = db.prepare(`\n    SELECT posts.id, image_url AS image, title, content, created_at AS createdAt, first_name AS userFirstName, last_name AS userLastName, COUNT(likes.post_id) AS likes, EXISTS(SELECT * FROM likes WHERE likes.post_id = posts.id and likes.user_id = 2) AS isLiked\n    FROM posts\n    INNER JOIN users ON posts.user_id = users.id\n    LEFT JOIN likes ON posts.id = likes.post_id\n    GROUP BY posts.id\n    ORDER BY createdAt DESC\n    ${limitClause}`);\n    await new Promise((resolve)=>setTimeout(resolve, 1000));\n    return maxNumber ? stmt.all(maxNumber) : stmt.all();\n}\nasync function storePost(post) {\n    const stmt = db.prepare(`\n    INSERT INTO posts (image_url, title, content, user_id)\n    VALUES (?, ?, ?, ?)`);\n    await new Promise((resolve)=>setTimeout(resolve, 1000));\n    return stmt.run(post.imageUrl, post.title, post.content, post.userId);\n}\nasync function updatePostLikeStatus(postId, userId) {\n    const stmt = db.prepare(`\n    SELECT COUNT(*) AS count\n    FROM likes\n    WHERE user_id = ? AND post_id = ?`);\n    const isLiked = stmt.get(userId, postId).count === 0;\n    if (isLiked) {\n        const stmt = db.prepare(`\n      INSERT INTO likes (user_id, post_id)\n      VALUES (?, ?)`);\n        await new Promise((resolve)=>setTimeout(resolve, 1000));\n        return stmt.run(userId, postId);\n    } else {\n        const stmt = db.prepare(`\n      DELETE FROM likes\n      WHERE user_id = ? AND post_id = ?`);\n        await new Promise((resolve)=>setTimeout(resolve, 1000));\n        return stmt.run(userId, postId);\n    }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFjdGlvbi1icm93c2VyKS8uL2xpYi9wb3N0cy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFpQztBQUVqQyxNQUFNQyxLQUFLLElBQUlELHVEQUFHQSxDQUFDO0FBRW5CLFNBQVNFO0lBQ1BELEdBQUdFLElBQUksQ0FBQyxDQUFDOzs7Ozs7S0FNTixDQUFDO0lBQ0pGLEdBQUdFLElBQUksQ0FBQyxDQUFDOzs7Ozs7Ozs7S0FTTixDQUFDO0lBQ0pGLEdBQUdFLElBQUksQ0FBQyxDQUFDOzs7Ozs7O0tBT04sQ0FBQztJQUVKLHVEQUF1RDtJQUN2RCxNQUFNQyxPQUFPSCxHQUFHSSxPQUFPLENBQUM7SUFFeEIsSUFBSUQsS0FBS0UsR0FBRyxHQUFHQyxLQUFLLEtBQUssR0FBRztRQUMxQk4sR0FBR0UsSUFBSSxDQUFDLENBQUM7OztFQUdYLENBQUM7UUFFQ0YsR0FBR0UsSUFBSSxDQUFDLENBQUM7OztFQUdYLENBQUM7SUFDRDtBQUNGO0FBRUFEO0FBRU8sZUFBZU0sU0FBU0MsU0FBUztJQUN0QyxJQUFJQyxjQUFjO0lBRWxCLElBQUlELFdBQVc7UUFDYkMsY0FBYztJQUNoQjtJQUVBLE1BQU1OLE9BQU9ILEdBQUdJLE9BQU8sQ0FBQyxDQUFDOzs7Ozs7O0lBT3ZCLEVBQUVLLFlBQVksQ0FBQztJQUVqQixNQUFNLElBQUlDLFFBQVEsQ0FBQ0MsVUFBWUMsV0FBV0QsU0FBUztJQUNuRCxPQUFPSCxZQUFZTCxLQUFLVSxHQUFHLENBQUNMLGFBQWFMLEtBQUtVLEdBQUc7QUFDbkQ7QUFFTyxlQUFlQyxVQUFVQyxJQUFJO0lBQ2xDLE1BQU1aLE9BQU9ILEdBQUdJLE9BQU8sQ0FBQyxDQUFDOzt1QkFFSixDQUFDO0lBQ3RCLE1BQU0sSUFBSU0sUUFBUSxDQUFDQyxVQUFZQyxXQUFXRCxTQUFTO0lBQ25ELE9BQU9SLEtBQUthLEdBQUcsQ0FBQ0QsS0FBS0UsUUFBUSxFQUFFRixLQUFLRyxLQUFLLEVBQUVILEtBQUtJLE9BQU8sRUFBRUosS0FBS0ssTUFBTTtBQUN0RTtBQUVPLGVBQWVDLHFCQUFxQkMsTUFBTSxFQUFFRixNQUFNO0lBQ3ZELE1BQU1qQixPQUFPSCxHQUFHSSxPQUFPLENBQUMsQ0FBQzs7O3FDQUdVLENBQUM7SUFFcEMsTUFBTW1CLFVBQVVwQixLQUFLRSxHQUFHLENBQUNlLFFBQVFFLFFBQVFoQixLQUFLLEtBQUs7SUFFbkQsSUFBSWlCLFNBQVM7UUFDWCxNQUFNcEIsT0FBT0gsR0FBR0ksT0FBTyxDQUFDLENBQUM7O21CQUVWLENBQUM7UUFDaEIsTUFBTSxJQUFJTSxRQUFRLENBQUNDLFVBQVlDLFdBQVdELFNBQVM7UUFDbkQsT0FBT1IsS0FBS2EsR0FBRyxDQUFDSSxRQUFRRTtJQUMxQixPQUFPO1FBQ0wsTUFBTW5CLE9BQU9ILEdBQUdJLE9BQU8sQ0FBQyxDQUFDOzt1Q0FFVSxDQUFDO1FBQ3BDLE1BQU0sSUFBSU0sUUFBUSxDQUFDQyxVQUFZQyxXQUFXRCxTQUFTO1FBQ25ELE9BQU9SLEtBQUthLEdBQUcsQ0FBQ0ksUUFBUUU7SUFDMUI7QUFDRiIsInNvdXJjZXMiOlsid2VicGFjazovL211dGF0aW9uLy4vbGliL3Bvc3RzLmpzP2Y0YTgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHNxbCBmcm9tICdiZXR0ZXItc3FsaXRlMyc7XG5cbmNvbnN0IGRiID0gbmV3IHNxbCgncG9zdHMuZGInKTtcblxuZnVuY3Rpb24gaW5pdERiKCkge1xuICBkYi5leGVjKGBcbiAgICBDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyB1c2VycyAoXG4gICAgICBpZCBJTlRFR0VSIFBSSU1BUlkgS0VZLCBcbiAgICAgIGZpcnN0X25hbWUgVEVYVCwgXG4gICAgICBsYXN0X25hbWUgVEVYVCxcbiAgICAgIGVtYWlsIFRFWFRcbiAgICApYCk7XG4gIGRiLmV4ZWMoYFxuICAgIENSRUFURSBUQUJMRSBJRiBOT1QgRVhJU1RTIHBvc3RzIChcbiAgICAgIGlkIElOVEVHRVIgUFJJTUFSWSBLRVksIFxuICAgICAgaW1hZ2VfdXJsIFRFWFQgTk9UIE5VTEwsXG4gICAgICB0aXRsZSBURVhUIE5PVCBOVUxMLCBcbiAgICAgIGNvbnRlbnQgVEVYVCBOT1QgTlVMTCwgXG4gICAgICBjcmVhdGVkX2F0IFRFWFQgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUCxcbiAgICAgIHVzZXJfaWQgSU5URUdFUiwgXG4gICAgICBGT1JFSUdOIEtFWSh1c2VyX2lkKSBSRUZFUkVOQ0VTIHVzZXJzKGlkKSBPTiBERUxFVEUgQ0FTQ0FERVxuICAgIClgKTtcbiAgZGIuZXhlYyhgXG4gICAgQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgbGlrZXMgKFxuICAgICAgdXNlcl9pZCBJTlRFR0VSLCBcbiAgICAgIHBvc3RfaWQgSU5URUdFUiwgXG4gICAgICBQUklNQVJZIEtFWSh1c2VyX2lkLCBwb3N0X2lkKSxcbiAgICAgIEZPUkVJR04gS0VZKHVzZXJfaWQpIFJFRkVSRU5DRVMgdXNlcnMoaWQpIE9OIERFTEVURSBDQVNDQURFLCBcbiAgICAgIEZPUkVJR04gS0VZKHBvc3RfaWQpIFJFRkVSRU5DRVMgcG9zdHMoaWQpIE9OIERFTEVURSBDQVNDQURFXG4gICAgKWApO1xuXG4gIC8vIENyZWF0aW5nIHR3byBkdW1teSB1c2VycyBpZiB0aGV5IGRvbid0IGV4aXN0IGFscmVhZHlcbiAgY29uc3Qgc3RtdCA9IGRiLnByZXBhcmUoJ1NFTEVDVCBDT1VOVCgqKSBBUyBjb3VudCBGUk9NIHVzZXJzJyk7XG5cbiAgaWYgKHN0bXQuZ2V0KCkuY291bnQgPT09IDApIHtcbiAgICBkYi5leGVjKGBcbiAgICBJTlNFUlQgSU5UTyB1c2VycyAoZmlyc3RfbmFtZSwgbGFzdF9uYW1lLCBlbWFpbClcbiAgICBWQUxVRVMgKCdKb2huJywgJ0RvZScsICdqb2huQGV4YW1wbGUuY29tJylcbiAgYCk7XG5cbiAgICBkYi5leGVjKGBcbiAgICBJTlNFUlQgSU5UTyB1c2VycyAoZmlyc3RfbmFtZSwgbGFzdF9uYW1lLCBlbWFpbClcbiAgICBWQUxVRVMgKCdNYXgnLCAnU2Nod2FyeicsICdtYXhAZXhhbXBsZS5jb20nKVxuICBgKTtcbiAgfVxufVxuXG5pbml0RGIoKTtcblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFBvc3RzKG1heE51bWJlcikge1xuICBsZXQgbGltaXRDbGF1c2UgPSAnJztcblxuICBpZiAobWF4TnVtYmVyKSB7XG4gICAgbGltaXRDbGF1c2UgPSAnTElNSVQgPyc7XG4gIH1cblxuICBjb25zdCBzdG10ID0gZGIucHJlcGFyZShgXG4gICAgU0VMRUNUIHBvc3RzLmlkLCBpbWFnZV91cmwgQVMgaW1hZ2UsIHRpdGxlLCBjb250ZW50LCBjcmVhdGVkX2F0IEFTIGNyZWF0ZWRBdCwgZmlyc3RfbmFtZSBBUyB1c2VyRmlyc3ROYW1lLCBsYXN0X25hbWUgQVMgdXNlckxhc3ROYW1lLCBDT1VOVChsaWtlcy5wb3N0X2lkKSBBUyBsaWtlcywgRVhJU1RTKFNFTEVDVCAqIEZST00gbGlrZXMgV0hFUkUgbGlrZXMucG9zdF9pZCA9IHBvc3RzLmlkIGFuZCBsaWtlcy51c2VyX2lkID0gMikgQVMgaXNMaWtlZFxuICAgIEZST00gcG9zdHNcbiAgICBJTk5FUiBKT0lOIHVzZXJzIE9OIHBvc3RzLnVzZXJfaWQgPSB1c2Vycy5pZFxuICAgIExFRlQgSk9JTiBsaWtlcyBPTiBwb3N0cy5pZCA9IGxpa2VzLnBvc3RfaWRcbiAgICBHUk9VUCBCWSBwb3N0cy5pZFxuICAgIE9SREVSIEJZIGNyZWF0ZWRBdCBERVNDXG4gICAgJHtsaW1pdENsYXVzZX1gKTtcblxuICBhd2FpdCBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gc2V0VGltZW91dChyZXNvbHZlLCAxMDAwKSk7XG4gIHJldHVybiBtYXhOdW1iZXIgPyBzdG10LmFsbChtYXhOdW1iZXIpIDogc3RtdC5hbGwoKTtcbn1cblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHN0b3JlUG9zdChwb3N0KSB7XG4gIGNvbnN0IHN0bXQgPSBkYi5wcmVwYXJlKGBcbiAgICBJTlNFUlQgSU5UTyBwb3N0cyAoaW1hZ2VfdXJsLCB0aXRsZSwgY29udGVudCwgdXNlcl9pZClcbiAgICBWQUxVRVMgKD8sID8sID8sID8pYCk7XG4gIGF3YWl0IG5ldyBQcm9taXNlKChyZXNvbHZlKSA9PiBzZXRUaW1lb3V0KHJlc29sdmUsIDEwMDApKTtcbiAgcmV0dXJuIHN0bXQucnVuKHBvc3QuaW1hZ2VVcmwsIHBvc3QudGl0bGUsIHBvc3QuY29udGVudCwgcG9zdC51c2VySWQpO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gdXBkYXRlUG9zdExpa2VTdGF0dXMocG9zdElkLCB1c2VySWQpIHtcbiAgY29uc3Qgc3RtdCA9IGRiLnByZXBhcmUoYFxuICAgIFNFTEVDVCBDT1VOVCgqKSBBUyBjb3VudFxuICAgIEZST00gbGlrZXNcbiAgICBXSEVSRSB1c2VyX2lkID0gPyBBTkQgcG9zdF9pZCA9ID9gKTtcblxuICBjb25zdCBpc0xpa2VkID0gc3RtdC5nZXQodXNlcklkLCBwb3N0SWQpLmNvdW50ID09PSAwO1xuXG4gIGlmIChpc0xpa2VkKSB7XG4gICAgY29uc3Qgc3RtdCA9IGRiLnByZXBhcmUoYFxuICAgICAgSU5TRVJUIElOVE8gbGlrZXMgKHVzZXJfaWQsIHBvc3RfaWQpXG4gICAgICBWQUxVRVMgKD8sID8pYCk7XG4gICAgYXdhaXQgbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHNldFRpbWVvdXQocmVzb2x2ZSwgMTAwMCkpO1xuICAgIHJldHVybiBzdG10LnJ1bih1c2VySWQsIHBvc3RJZCk7XG4gIH0gZWxzZSB7XG4gICAgY29uc3Qgc3RtdCA9IGRiLnByZXBhcmUoYFxuICAgICAgREVMRVRFIEZST00gbGlrZXNcbiAgICAgIFdIRVJFIHVzZXJfaWQgPSA/IEFORCBwb3N0X2lkID0gP2ApO1xuICAgIGF3YWl0IG5ldyBQcm9taXNlKChyZXNvbHZlKSA9PiBzZXRUaW1lb3V0KHJlc29sdmUsIDEwMDApKTtcbiAgICByZXR1cm4gc3RtdC5ydW4odXNlcklkLCBwb3N0SWQpO1xuICB9XG59XG4iXSwibmFtZXMiOlsic3FsIiwiZGIiLCJpbml0RGIiLCJleGVjIiwic3RtdCIsInByZXBhcmUiLCJnZXQiLCJjb3VudCIsImdldFBvc3RzIiwibWF4TnVtYmVyIiwibGltaXRDbGF1c2UiLCJQcm9taXNlIiwicmVzb2x2ZSIsInNldFRpbWVvdXQiLCJhbGwiLCJzdG9yZVBvc3QiLCJwb3N0IiwicnVuIiwiaW1hZ2VVcmwiLCJ0aXRsZSIsImNvbnRlbnQiLCJ1c2VySWQiLCJ1cGRhdGVQb3N0TGlrZVN0YXR1cyIsInBvc3RJZCIsImlzTGlrZWQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(action-browser)/./lib/posts.js\n");
 
 /***/ }),
 
@@ -352,7 +739,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Ffeed%2Fpage&page=%2Ffeed%2Fpage&appPaths=%2Ffeed%2Fpage&pagePath=private-next-app-dir%2Ffeed%2Fpage.js&appDir=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/cloudinary","vendor-chunks/q"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Ffeed%2Fpage&page=%2Ffeed%2Fpage&appPaths=%2Ffeed%2Fpage&pagePath=private-next-app-dir%2Ffeed%2Fpage.js&appDir=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fblurlingite%2FDocuments%2FNextPosts&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

@@ -1,7 +1,8 @@
 "use server";
 import { redirect } from "next/navigation";
-import { storePost } from "@/lib/posts";
+import { storePost, updatePostLikeStatus } from "@/lib/posts";
 import { uploadImage } from "@/lib/cloudinary";
+import { revalidatePath } from "next/cache";
 // had to make prevState the first argument due to funneling this action in the useActionState hook in post-form.js
 export async function createPost(prevState, formData) {
   const title = formData.get("title");
@@ -42,5 +43,12 @@ export async function createPost(prevState, formData) {
     userId: 1,
   });
 
+  revalidatePath("/", "layout");
+
   redirect("/feed");
+}
+
+export default async function togglePostLikeStatus(postId) {
+  await updatePostLikeStatus(postId, 2);
+  revalidatePath("/", "layout");
 }
